@@ -3,4 +3,10 @@ class SpecialtiesController < ApplicationController
     @doctors = Doctor.all
   end
 
+  private
+
+  def search_params
+    params
+  end
+
 end

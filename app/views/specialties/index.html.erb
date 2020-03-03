@@ -1,6 +1,15 @@
-<% @doctors.each do |doctor| %>
-  <%= doctor.first_name %>
-  <%= doctor.last_name %>
-  <%= doctor.address %>
-  <%= doctor.specialties.name %>
-<% end %>
+<ul>
+  <% @doctors.each do |doctor| %>
+    <li>
+      <%= doctor.first_name %>
+      <%= doctor.last_name %>
+      <%= doctor.address %>
+      <br>
+      <%= doctor.waiting_time %>
+      <%= doctor.picture_url %>
+      <% doctor.specialties.each do |specialty| %>
+        <%= specialty.name %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
