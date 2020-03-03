@@ -6,7 +6,7 @@
       <%= doctor.address %>
       <br>
       <%= doctor.waiting_time %>
-      <%= doctor.picture_url %>
+      <img src=<%=doctor.picture_url%> alt="A doctor">
       <% doctor.specialties.each do |specialty| %>
         <%= specialty.name %>
       <% end %>
