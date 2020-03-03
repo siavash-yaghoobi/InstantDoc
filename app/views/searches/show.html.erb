@@ -7,6 +7,12 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+    <%= select_tag "dropdown", options_from_collection_for_select(
+      @specialties.all,
+      :name, :name),
+      class: 'select2' %>
+
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
@@ -28,5 +34,3 @@
     </ul>
   </div>
 </div>
-
-
