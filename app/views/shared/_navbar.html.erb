@@ -30,3 +30,8 @@
 </div>
 
 
+
+   <%= select_tag "dropdown", options_from_collection_for_select(
+      @specialties.all,
+      :name, :name),
+      class: 'select2' %>
