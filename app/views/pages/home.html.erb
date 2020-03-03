@@ -11,6 +11,11 @@
                 <input type="text" name="query" id="query" class="form-control" placeholder="Insert your location">
                 <input type="submit" name="commit" value="Find" class="btn btn-primary mt-3">
             </form>
+            <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
+                <%= text_field_tag :specialties, params[:specialties], as: :string %>
+                <%= text_field_tag :address, params[:address], as: :string%>
+                <%= submit_tag "Submit", class: "btn btn-primary" %>
+            <% end %>
           </div>
         </div>
       </div>
