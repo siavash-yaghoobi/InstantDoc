@@ -14,5 +14,4 @@ class DoctorsController < ApplicationController
     def search_params
       params.require(:doctor).permit(:specialty, :location)
     end
-
   end
