@@ -11,7 +11,7 @@ class SearchesController < ApplicationController
 
   def show
     @search = Search.new
-    # @specialty = Specialty.new
+    @specialty = Specialty.new
     @specialties = Specialty.all
   end
 

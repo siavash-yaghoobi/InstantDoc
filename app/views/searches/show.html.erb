@@ -3,21 +3,18 @@
     <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png"%>
     <% end %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button id="navbarDropdown" class="navbar-toggler avatar dropdown-toggle" type="button" data-toggle="dropdown" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-    <%= select_tag "dropdown", options_from_collection_for_select(
+   <%= select_tag "dropdown", options_from_collection_for_select(
       @specialties.all,
       :name, :name),
       class: 'select2' %>
-
-
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
         <li class="nav-item dropdown">
-          <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <%= link_to "Home", root_path, class: "dropdown-item" %>
             <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
@@ -34,3 +31,4 @@
     </ul>
   </div>
 </div>
+
