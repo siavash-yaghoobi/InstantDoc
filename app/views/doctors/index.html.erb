@@ -28,13 +28,18 @@
   </div>
 </div>
 
-
+<div class="container">
 <% @doctors.each do |doctor| %>
+  <div class="container-flex">
     <img id="doctor-image"src=<%=doctor.picture_url%> alt="A doctor">
-    <h1> <%= doctor.first_name %> <%= doctor.last_name %></h1>
-    <% doctor.specialties.each do |specialty| %>
-      <h2> <%= specialty.name %></h2>
-    <% end %>
-    <p> <%= doctor.address %></p>
-    <p> <%= doctor.waiting_time %> </p>
+    <div>
+      <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
+      <% doctor.specialties.each do |specialty| %>
+        <h4> <%= specialty.name %></h4>
+      <% end %>
+        <p> <%= doctor.address %></p>
+        <span> <%= doctor.waiting_time %> </span>
+    </div>
+  </div>
 <% end %>
+</div>
