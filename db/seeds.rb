@@ -9,9 +9,11 @@ DoctorSpecialty.destroy_all
 Specialty.destroy_all
 Doctor.destroy_all
 
+p "Destroying all seeds.."
 
 specialties = Specialty.create([{name: 'Allergy & Immunology'}, {name: 'Anesthesiology & Pain Medicine'}, {name: 'Cardiology'}, {name: 'Colon & Rectal Surgery'}, {name: 'Dermatology'}, {name: 'Emergency Medicine'}, {name: 'General Medicine'}, {name: 'Internal Medicine'}, {name: 'Medical Genetics'}, {name: 'Neurological Surgery'}, {name: 'Nuclear Medicine'}, {name: 'Obstetrics & Gynecology'}, {name: 'Ophthalmology'}, {name: 'Orthopaedic Surgery'}, {name: 'Otolaryngology'}, {name:'Pathology-Anatomic & Clinical / Hematology'}, {name: 'Pediatrics'}, {name: 'Physical Medicine & Rehabilitation'}, {name:'Plastic Surgery'}, {name: 'Pediatrics'}, {name: 'Psychiatry'}, {name: 'Radiation Oncology'}, {name: 'Radiology-Diagnostic'}, {name: 'Sleep Medicine'}, {name: 'Surgery-General'}, {name: 'Urology'}])
 
+p "creating new seeds"
 #already have a bunch of specialities
 
 doctor1 = Doctor.create(first_name: 'Katrin', last_name: 'Luft', address: 'Hauptstraße 87, 12159 Berlin', waiting_time: 44, picture_url: 'https://res.cloudinary.com/doctolib/image/upload/q_auto:eco,f_auto,w_1024,h_700,c_limit/royn6cesjwznvrsou4m7.jpg')
@@ -67,3 +69,5 @@ DoctorSpecialty.create(doctor_id: doctor19.id, specialty_id: Specialty.find_by(n
 DoctorSpecialty.create(doctor_id: doctor20.id, specialty_id: Specialty.find_by(name:'Obstetrics & Gynecology').id)
 DoctorSpecialty.create(doctor_id: doctor20.id, specialty_id: Specialty.find_by(name:'General Medicine').id)
 DoctorSpecialty.create(doctor_id: doctor18.id, specialty_id: Specialty.find_by(name:'Pediatrics').id)
+
+p "seeds done"
