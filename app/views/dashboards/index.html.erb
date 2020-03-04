@@ -1,30 +1,26 @@
 <div class="container">
-  <h1>Hi <%= current_user.username %>!</h1>
+  <h1>Hi <%= current_user.first_name %>!</h1>
 
-  <h2>My bookings</h2>
+  <h2>My searches</h2>
   <br>
   <div class="flexing-container">
     <div class="duck-cards">
-    <% current_user.bookings.each do |booking| %>
+    <% current_user.searches.each do |search| %>
       <div class="card-product border">
-        <%=link_to booking_path(booking) do %>
-          <% if booking.duck.photo.attached? %>
-            <%= cl_image_tag booking.duck.photo.key, class: "border" %>
-          <% end %>
-        <% end %>
+        <%#=link_to searches_path(search) do %>
+
+        <%# end %>
         <div class="spaced-between">
           <div class="card-product-infos">
-              <h2><%= booking.duck.name %></h2>
-              <br>
-              <h5><%= booking.duck.category %></h5>
-              <br>
-              <br>
-              <p><%= booking.duck.description %></p>
-              <br>
-              <br>
-              <h6 class="item-flex-end"><%= booking.duck.price %> &euro;</h6>
-            </div>
+            <h2><%= search.specialty.name %></h2>
+            <br>
+            <h5><%= search.location %></h5>
+            <br>
+            <br>
+            <p><%= search.radius %></p>
+            <br>
           </div>
+        </div>
       </div>
     <% end %>
   </div>
