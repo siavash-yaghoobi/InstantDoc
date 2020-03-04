@@ -1,7 +1,5 @@
 <%= render 'shared/navbar' %>
 
-
-
 <% @doctors.each do |doctor| %>
   <div class="container-flex">
     <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
@@ -22,3 +20,5 @@
   <%= f.hidden_field :radius, { :value => params[:radius] } %>
   <%= f.submit "Notify me!"%>
 <% end %>
+
+<%= render 'shared/map' %>
