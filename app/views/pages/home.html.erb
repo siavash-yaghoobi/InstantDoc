@@ -7,11 +7,12 @@
           <div class="flex-search">
             <h2 class="title">Secure doctor appointments today</h2>
             <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
-                <%= select_tag "dropdown", options_from_collection_for_select(
+                <%= select_tag "specialties", options_from_collection_for_select(
                 @specialties.all,
-                :name, :name),
+                :id, :name),
                 class: 'form-control' %>
-                <%= text_field_tag :address, params[:address], as: :string, class: 'form-control' %>
+                <%= text_field_tag :location, params[:location], as: :string, placeholder: 'Enter a city',class: 'form-control' %>
+                <%= text_field_tag :radius, params[:radius], as: :integer, :value => 0, placeholder: 'Enter a radius',class: 'form-control' %>
                 <%= submit_tag "Submit", class: "btn btn-primary mt-3" %>
             <% end %>
           </div>
