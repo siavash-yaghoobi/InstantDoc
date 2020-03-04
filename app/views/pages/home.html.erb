@@ -12,7 +12,7 @@
                 :id, :name),
                 class: 'form-control' %>
                 <%= text_field_tag :location, params[:location], as: :string, placeholder: 'Enter a city',class: 'form-control' %>
-                <%= text_field_tag :radius, params[:radius], as: :integer, :value => 0, placeholder: 'Enter a radius',class: 'form-control' %>
+                <%= number_field(:radius, :radius, placeholder: 'Radius', in: 0..150, step: 5, class: 'form-control') %>
                 <%= submit_tag "Submit", class: "btn btn-primary mt-3" %>
             <% end %>
           </div>
