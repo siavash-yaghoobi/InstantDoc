@@ -8,6 +8,13 @@ class DoctorsController < ApplicationController
       @doctors = Doctor.all
     end
     @addresses = Doctor.where("address = #{params[:address]}")
+    @doctors = Doctor.geocoded
+    @markers = @doctors.map do |doctor|
+      {
+        lat: doctor.latitude,
+        lng: doctor.longitude
+      }
+    end
   end
 
     private
