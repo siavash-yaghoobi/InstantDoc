@@ -18,6 +18,7 @@
 
 <%= form_for @search do |f| %>
   <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
-  <%= f.hidden_field :address, { :value => params[:address] } %>
+  <%= f.hidden_field :location, { :value => params[:location] } %>
+  <%= f.hidden_field :radius, { :value => params[:radius] } %>
   <%= f.submit "Notify me!"%>
 <% end %>
