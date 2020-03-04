@@ -3,17 +3,24 @@ class SearchesController < ApplicationController
   skip_before_action :authenticate_user!, only: [:home, :index, :show]
 
   def index
-
+    @searches = Search.all
   end
 
   def create
     search = Search.new(search_params)
+    search.specialty = Specialty.find(params[:search][:specialty])
+    search.user = current_user
+    if search.save
+      redirect_to root_path
+    else
+      render "doctors/index"
+    end
   end
 
   private
 
   def search_params
-    params[:search].permit(:address, :specialty)
+    params[:search].permit(:location, :radius)
   end
 
 end
