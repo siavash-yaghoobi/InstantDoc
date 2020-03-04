@@ -10,5 +10,8 @@ class SearchesController < ApplicationController
     @specialty = Specialty.new
     @specialties = Specialty.all
   end
+  def create
+    raise
+  end
 
 end

@@ -1,7 +1,5 @@
 .container-flex {
   display: flex;
-  justify-content: space-between;
-
 }
 
 .flex-direction-column {
@@ -17,9 +15,13 @@
   flex-direction: row;
 }
 
-#doctor-image {
+#doc-image {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+.doc-info {
+
 }
