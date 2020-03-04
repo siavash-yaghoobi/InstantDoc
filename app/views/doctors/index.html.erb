@@ -1,38 +1,11 @@
-<div class="navbar navbar-expand navbar-light navbar-lewagon">
-  <%= link_to "#", class: "navbar-brand" do %>
-    <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png"%>
-    <% end %>
+<%= render 'shared/navbar' %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <% if user_signed_in? %>
-        <li class="nav-item dropdown">
-          <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Home", root_path, class: "dropdown-item" %>
-            <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
-            <%= link_to "My searches", "searches_path", class: "dropdown-item" %>
-            <%= link_to "My appointments", "appointments_path", class: "dropdown-item" %>
-            <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-          </div>
-        </li>
-      <% else %>
-        <li class="nav-item">
-          <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-</div>
 
-<div class="container">
+
 <% @doctors.each do |doctor| %>
   <div class="container-flex">
-    <img id="doctor-image"src=<%=doctor.picture_url%> alt="A doctor">
-    <div>
+    <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
+    <div class="doc-info">
       <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
       <% doctor.specialties.each do |specialty| %>
         <h4> <%= specialty.name %></h4>
@@ -42,4 +15,9 @@
     </div>
   </div>
 <% end %>
-</div>
+
+<%= form_for @search do |f| %>
+  <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
+  <%= f.hidden_field :address, { :value => params[:address] } %>
+  <%= f.submit "Notify me!"%>
+<% end %>
