@@ -1,20 +1,19 @@
 <div class="banner">
+  <%= render partial: "homepage_navbar" %>
   <div class="container">
     <div class="row">
       <div class="col-sm">
         <div class="landing-search">
           <div class="flex-search">
             <h2 class="title">Secure doctor appointments today</h2>
-            <form action="/doctors" accept-charset="UTF-8" method="get" class="search-form-control">
-                <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-                <input type="text" name="query" id="query" class="form-control" placeholder="Insert doctor's specialty">
-                <input type="text" name="query" id="query" class="form-control" placeholder="Insert your location">
-                <input type="submit" name="commit" value="Find" class="btn btn-primary mt-3">
-            </form>
             <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
-                <%= text_field_tag :specialties, params[:specialties], as: :string %>
-                <%= text_field_tag :address, params[:address], as: :string%>
-                <%= submit_tag "Submit", class: "btn btn-primary" %>
+                <%= select_tag "specialties", options_from_collection_for_select(
+                @specialties.all,
+                :id, :name),
+                class: 'form-control' %>
+                <%= text_field_tag :location, params[:location], as: :string, placeholder: 'Enter a city',class: 'form-control' %>
+                <%= text_field_tag :radius, params[:radius], as: :integer, :value => 0, placeholder: 'Enter a radius',class: 'form-control' %>
+                <%= submit_tag "Submit", class: "btn btn-primary mt-3" %>
             <% end %>
           </div>
         </div>
