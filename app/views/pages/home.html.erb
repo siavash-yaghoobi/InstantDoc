@@ -7,7 +7,7 @@
           <div class="flex-search">
             <h2 class="title">Secure doctor appointments today</h2>
             <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
-                <%= select_tag "dropdown", options_from_collection_for_select(
+                <%= select_tag "specialties", options_from_collection_for_select(
                 @specialties.all,
                 :name, :name),
                 class: 'form-control' %>
