@@ -1,25 +1,28 @@
 <%= render 'shared/navbar' %>
 
-<% @doctors.each do |doctor| %>
-  <div class="container-flex">
-    <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
-    <div class="doc-info">
-      <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
-      <% doctor.specialties.each do |specialty| %>
-        <h4> <%= specialty.name %></h4>
-      <% end %>
-        <p> <%= doctor.address %></p>
-        <span> <%= doctor.waiting_time %> </span>
+<div id='doctor-list'>
+  <% @doctors.each do |doctor| %>
+    <div class="container-flex">
+      <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
+      <div class="doc-info">
+        <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
+        <% doctor.specialties.each do |specialty| %>
+          <h4> <%= specialty.name %></h4>
+        <% end %>
+          <p> <%= doctor.address %></p>
+          <span> <%= doctor.waiting_time %> </span>
+      </div>
     </div>
-  </div>
-<% end %>
+  <% end %>
 
-<%= form_for @search do |f| %>
-  <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
-  <%= f.hidden_field :location, { :value => params[:location] } %>
-  <%= f.hidden_field :radius, { :value => params[:radius] } %>
-  <%= f.submit "Notify me!"%>
-<% end %>
+
+  <%= form_for @search do |f| %>
+    <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
+    <%= f.hidden_field :location, { :value => params[:location] } %>
+    <%= f.hidden_field :radius, { :value => params[:radius] } %>
+    <%= f.submit "Notify me!"%>
+  <% end %>
+</div>
 
 <%= render 'shared/map' %>
 

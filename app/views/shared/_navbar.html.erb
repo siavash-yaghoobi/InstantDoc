@@ -1,6 +1,7 @@
 <div class="navbar navbar-expand navbar-light navbar-lewagon navbar-fixed-top">
-  <%= link_to "#", class: "navbar-brand", :id => "map_img" do %>
-    <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png" %>
+  <%= link_to "#", class: "navbar-brand show-map-icon", :id => "toggle-map" do %>
+    <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png", class: 'image-map' %>
+    <span class="span-list">List </span>
     <% end %>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
