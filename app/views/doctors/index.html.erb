@@ -9,7 +9,7 @@
           <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
           <% doctor.specialties.each do |specialty| %>
             <% if specialty.id == params[:specialties].to_i %>
-              <p class="card-doc-info-specialty"> <%= specialty.name %></p>
+              <p class="card-doc-info-specialty"> <%= specialty.name %></p><
             <% end %>
           <% end %>
           <p> <%= doctor.address %></p>
