@@ -4,6 +4,7 @@ class DoctorsController < ApplicationController
     if params[:specialties].present? # We check if the user gave as a specitly
       @doctors = Doctor.geocoded.joins(:specialties).where({ specialties: { id: params[:specialties].to_i } }) # We search for a doctor with this specialty
       @search = Search.new
+      # raise
     else
       @doctors = Doctor.geocoded
     end
