@@ -1,27 +1,26 @@
 <div class="container">
   <h1>Hi <%= current_user.first_name %>!</h1>
 
-  <h2>My searches</h2>
+  <h2>My appointments</h2>
   <br>
   <div class="flexing-container">
     <div class="duck-cards">
-    <% current_user.searches.each do |search| %>
+    <% current_user.appointments.each do |appointment| %>
       <div class="card-product border">
 
         <div class="spaced-between">
           <div class="card-product-infos">
-             <h1>My <%= search.location.capitalize %> <%= search.specialty.name %> search </h1>
-              <h2>your chosen specialty: <%= search.specialty.name %></h2>
+             <<!-- h1>My appointment </h1>
+              <h2><%= appointment.doctorspecialty %></h2>
               <br>
-              <h5>your chosen location:<%= search.location %></h5>
+              <h5>your chosen location:<%= appointment.location %></h5>
               <br>
               <br>
-              <p>your chosen radius:<%= search.radius %></p>
-              <br>
+              <p>your chosen radius:<%= appointment.radius %></p>
+              <br> -->
                <%= link_to "Edit", "#", class: "btn btn-flat" %>
             <%= link_to "delete", "#", class: "btn btn-flat" %>
-             <br>
-
+ <br>
             </div>
           </div>
       </div>
@@ -29,3 +28,4 @@
   </div>
 
 </div>
+
