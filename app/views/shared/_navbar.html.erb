@@ -1,18 +1,19 @@
-<div class="navbar navbar-expand navbar-light navbar-lewagon navbar-fixed-top">
-  <%= link_to "#", class: "navbar-brand show-map-icon", :id => "toggle-map" do %>
-    <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png", class: 'image-map' %>
-    <span class="span-list">List </span>
-    <% end %>
+<div class="container">
+  <div class="navbar navbar-expand navbar-light navbar-lewagon navbar-fixed-top">
+    <%= link_to "#", class: "navbar-brand show-map-icon", :id => "toggle-map" do %>
+      <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png", class: 'image-map' %>
+      <span class="span-list">List </span>
+      <% end %>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-     <%= select_tag "specialty", options_from_collection_for_select(
-    @specialties,
-    :name, :name),
-    class: 'select2' %>
-
+       <%= select_tag "specialty", options_from_collection_for_select(
+      @specialties,
+      :name, :name),
+      class: 'select2' %>
+    
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
