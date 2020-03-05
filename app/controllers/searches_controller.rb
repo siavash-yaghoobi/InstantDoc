@@ -1,15 +1,17 @@
 class SearchesController < ApplicationController
   #before_action :set_specialties, only:
-  skip_before_action :authenticate_user!, only: [:home, :index, :show]
+  # skip_before_action :authenticate_user!, only: [:home, :index, :show]
 
   def index
     @searches = Search.all
+    authorize @searches
   end
 
   def create
     search = Search.new(search_params)
     search.specialty = Specialty.find(params[:search][:specialty])
     search.user = current_user
+    authorize @searches
     if search.save
       redirect_to root_path
     else
