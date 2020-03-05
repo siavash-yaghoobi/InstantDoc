@@ -3,7 +3,8 @@
     <%= link_to "#", class: "navbar-brand show-map-icon", :id => "toggle-map" do %>
       <%= image_tag "https://img.icons8.com/material/30/000000/map--v1.png", class: 'image-map' %>
       <span class="span-list">List </span>
-      <% end %>
+    <% end %>
+
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -14,27 +15,28 @@
       :name, :name),
       class: 'select2' %>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <% if user_signed_in? %>
-        <li class="nav-item dropdown">
-          <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Home", root_path, class: "dropdown-item" %>
-            <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
-            <%= link_to "My searches", my_searches_path, class: "dropdown-item" %>
-            <%= link_to "My appointments", my_appointments_path, class: "dropdown-item" %>
-            <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-          </div>
-        </li>
-      <% else %>
-        <li class="nav-item dropdown">
-          <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-            <%= link_to "Sign Up", new_user_registration_path, class: "nav-link" %>
-          </div>
-      <% end %>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <% if user_signed_in? %>
+          <li class="nav-item dropdown">
+            <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" id="doc-dropdown">
+              <%= link_to "Home", root_path, class: "dropdown-item" %>
+              <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
+              <%= link_to "My searches", my_searches_path, class: "dropdown-item" %>
+              <%= link_to "My appointments", my_appointments_path, class: "dropdown-item" %>
+              <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
+            </div>
+          </li>
+        <% else %>
+          <li class="nav-item dropdown">
+            <%= image_tag "https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown" >
+              <%= link_to "Login", new_user_session_path, class: "nav-link" %>
+              <%= link_to "Sign Up", new_user_registration_path, class: "nav-link" %>
+            </div>
+        <% end %>
+      </ul>
+    </div>
   </div>
 </div>
