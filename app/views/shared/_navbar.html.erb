@@ -13,7 +13,7 @@
       @specialties,
       :name, :name),
       class: 'select2' %>
-    
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <% if user_signed_in? %>
@@ -23,7 +23,7 @@
             <%= link_to "Home", root_path, class: "dropdown-item" %>
             <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
             <%= link_to "My searches", my_searches_path, class: "dropdown-item" %>
-            <%= link_to "My appointments", "appointments_path", class: "dropdown-item" %>
+            <%= link_to "My appointments", my_appointments_path, class: "dropdown-item" %>
             <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
           </div>
         </li>
