@@ -7,17 +7,20 @@
     <div class="duck-cards">
     <% current_user.searches.each do |search| %>
       <div class="card-product border">
-        <
+
         <div class="spaced-between">
           <div class="card-product-infos">
-              <h2><%= search.specialty.name %></h2>
+             <h1>My <%= search.location.capitalize %> <%= search.specialty.name %> search </h1>
+              <h2>your chosen specialty: <%= search.specialty.name %></h2>
               <br>
-              <h5><%= search.location %></h5>
+              <h5>your chosen location:<%= search.location %></h5>
               <br>
               <br>
-              <p><%= search.radius %></p>
+              <p>your chosen radius:<%= search.radius %></p>
               <br>
-
+               <%= link_to "Edit", "#", class: "btn btn-flat" %>
+            <%= link_to "delete", "#", class: "btn btn-flat" %>
+ <br>
             </div>
           </div>
       </div>
