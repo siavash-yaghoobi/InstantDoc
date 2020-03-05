@@ -6,5 +6,9 @@ class DashboardsController < ApplicationController
 
   end
 
+  def my_appointment
+    @dashboard_a = Appointment.where("user_id == #{current_user.id}")
+  end
+
 
 end
