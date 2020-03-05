@@ -4,17 +4,17 @@
   <div id='doctor-list'>
     <% @doctors.each do |doctor| %>
       <div class="card-doc">
-          <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
-          <div class="card-doc-info">
-            <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
-            <% doctor.specialties.each do |specialty| %>
-              <% if specialty.id == params[:specialties].to_i %>
-                <p class="card-doc-info-specialty"> <%= specialty.name %></p>
-              <% end %>
+        <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
+        <div class="card-doc-info">
+          <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
+          <% doctor.specialties.each do |specialty| %>
+            <% if specialty.id == params[:specialties].to_i %>
+              <p class="card-doc-info-specialty"> <%= specialty.name %></p>
             <% end %>
-            <p> <%= doctor.address %></p>
-            <p><span> <%= doctor.waiting_time %></span> hr avg. queue time</p>
-          </div>
+          <% end %>
+          <p> <%= doctor.address %></p>
+          <p><span> <%= doctor.waiting_time %></span> hr avg. queue time</p>
+        </div>
       </div>
     <% end %>
   </div>
@@ -22,7 +22,7 @@
       <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
       <%= f.hidden_field :location, { :value => params[:location] } %>
       <%= f.hidden_field :radius, { :value => params[:radius] } %>
-      <%= f.submit "Notify me!"%>
+      <%= f.submit "Notify Me", :class => 'btn btn-ter' %>
     <% end %>
 </div>
 
