@@ -3,9 +3,13 @@ class SearchPolicy < ApplicationPolicy
     def resolve
       scope.all
     end
+  end
 
-    def create
-      record.user == user || user.admin?
-    end
+  def index?
+    record.user == user
+  end
+
+  def create?
+    record.user == user
   end
 end

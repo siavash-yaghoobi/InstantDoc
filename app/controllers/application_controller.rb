@@ -1,11 +1,8 @@
 class ApplicationController < ActionController::Base
   before_action :authenticate_user!
+
+
   include Pundit
-
-  def set_specialties
-    @specialties = Specialty.all
-  end
-
   # Pundit: white-list approach.
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
   after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
@@ -18,6 +15,9 @@ class ApplicationController < ActionController::Base
   # end
 
   private
+  def set_specialties
+    @specialties = Specialty.all
+  end
 
   def skip_pundit?
     devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/

@@ -1,4 +1,5 @@
 class DashboardsController < ApplicationController
+  skip_after_action :verify_authorized
   before_action :set_specialties, only: %i[my_searches my_appointments]
 
   def my_searches

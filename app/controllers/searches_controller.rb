@@ -8,12 +8,11 @@ class SearchesController < ApplicationController
   end
 
   def create
-    search = Search.new(search_params)
-    search.specialty = Specialty.find(params[:search][:specialty])
-    search.user = current_user
-    authorize @searches
-    if search.save
-      redirect_to root_path
+    @search = Search.new(search_params)
+    @search.user = current_user
+    authorize @search
+    if @search.save
+      redirect_to my_searches_path
     else
       render "doctors/index"
     end
@@ -22,7 +21,7 @@ class SearchesController < ApplicationController
   private
 
   def search_params
-    params[:search].permit(:location, :radius)
+    params[:search].permit(:location, :radius, :specialty_id)
   end
 
 end
