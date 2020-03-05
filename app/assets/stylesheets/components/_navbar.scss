@@ -21,3 +21,25 @@
 .nav-link {
   color: #272343;
 }
+
+#toggle-map {
+  height: 50px;
+}
+
+#toggle-map > .span-list {
+  padding-top: 5px;
+  width: 40px;
+}
+
+#toggle-map > .image-map,
+#toggle-map > .span-list {
+  display: none;
+}
+
+#toggle-map.show-map-icon > .image-map {
+  display: inherit;
+}
+
+#toggle-map.show-list-text > .span-list {
+  display: inherit;
+}
