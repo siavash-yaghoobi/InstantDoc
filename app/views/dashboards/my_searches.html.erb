@@ -2,29 +2,34 @@
   <h1>Hi <%= current_user.first_name %>!</h1>
 
   <h2>My searches</h2>
-  <br>
+
   <div class="flexing-container">
     <div class="duck-cards">
-    <% current_user.searches.each do |search| %>
-      <div class="card-product border">
 
-        <div class="spaced-between">
-          <div class="card-product-infos">
-             <h1>My <%= search.location.capitalize %> <%= search.specialty.name %> search </h1>
-              <h2>your chosen specialty: <%= search.specialty.name %></h2>
-              <br>
-              <h5>your chosen location:<%= search.location %></h5>
-              <br>
-              <br>
-              <p>your chosen radius:<%= search.radius %></p>
-              <br>
-               <%= link_to "Edit", "#", class: "btn btn-flat" %>
-            <%= link_to "delete", "#", class: "btn btn-flat" %>
- <br>
+      <% current_user.searches.each do |search| %>
+        <div class="card-product border">
+
+          <div class="spaced-between">
+            <div class="card-product-infos">
+
+              <div class="blue-bar">
+              <p><%= search.specialty.name %> search</p>
+              </div>
+
+              <p>Location: <%= search.location %></p>
+              <p>Radius: <%= search.radius %></p>
+
+              <div style="display: flex; inline; justify-content: space-between;">
+                <%= link_to "delete", "#", class: "btn btn-flat" %>
+                <%= link_to "Edit", "#", class: "btn btn-flat" %>
+              </div>
             </div>
           </div>
-      </div>
-    <% end %>
+
+        </div>
+      <% end %>
+
+    </div>
   </div>
 
 </div>
