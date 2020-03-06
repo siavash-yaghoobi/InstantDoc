@@ -9,8 +9,13 @@
                 <%= select_tag "specialties", options_from_collection_for_select(
                 @specialties.all,
                 :id, :name),
-                class: 'form-control' %>
-                <%= text_field_tag :location, params[:location], as: :string, placeholder: 'Enter a city',class: 'form-control', id: 'address-input' %>
+                class: 'form-control', required: true %>
+                <%= text_field_tag :location,
+                  params[:location], as: :string,
+                  placeholder: 'Enter a city',
+                  class: 'form-control',
+                  id: 'address-input',
+                  required: true %>
                 <%= number_field(:radius, :radius, placeholder: 'Radius', in: 0..150, step: 5, class: 'form-control') %>
                 <%= submit_tag "Submit", class: "btn btn-primary mt-3" %>
             <% end %>
