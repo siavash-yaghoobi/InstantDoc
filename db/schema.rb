@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_03_02_164431) do
+ActiveRecord::Schema.define(version: 2020_03_06_112626) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "appointments", force: :cascade do |t|
-    t.string "status"
+    t.string "status", default: "pending"
     t.datetime "start_at"
     t.bigint "user_id"
     t.bigint "doctor_id"
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 2020_03_02_164431) do
   end
 
   create_table "notifications", force: :cascade do |t|
-    t.string "status"
+    t.string "status", default: "pending"
     t.bigint "appointment_id"
     t.bigint "user_id"
     t.datetime "created_at", null: false

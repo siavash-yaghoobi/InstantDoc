@@ -1,5 +1,21 @@
 class Appointment < ApplicationRecord
   belongs_to :doctor
   belongs_to :user, optional: true
-  has_many :notifications
+  has_many :notifications, dependent: :destroy
+  after_create_commit :create_notifications
+
+
+  private
+
+  def create_notifications
+    user = User.joins(:searches)
+               .where(searches: {specialty: self.doctor.specialties})
+               .order("searches.created_at DESC").first
+    if user
+      Notification.create!(appointment: self, user: user)
+    end
+  end
 end
+
+
+

@@ -1,0 +1,7 @@
+<%= button_to "Confirm", notification_path(@notification),
+                         method: :patch,
+                         params: { notification: { status: "confirmed" }} %>
+
+<%= button_to "Decline", notification_path(@notification),
+                         method: :patch,
+                         params: { notification: { status: "declined" }} %>
