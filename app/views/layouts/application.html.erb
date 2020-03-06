@@ -12,9 +12,13 @@
   </head>
   <body>
     <%= render 'shared/flashes' %>
+    <% if @home %>
+      <%= render 'pages/homepage_navbar' %>
+    <% elsif @doctors_navbar %>
+      <%= render 'shared/navbar'  %>
+    <% end %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
-
     <%= javascript_pack_tag 'application' %>
   </body>
 </html>
