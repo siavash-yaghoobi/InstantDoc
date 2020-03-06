@@ -1,33 +1,22 @@
-<div class="container">
-  <h1>Hi <%= current_user.first_name %>!</h1>
+<div class="container" id="search">
+  <!-- <h1>Hi <%#= current_user.first_name %>!</h1> -->
 
-  <h2>My searches</h2>
+  <h2 class="blue-bar" id="welcome-bar">My searches</h2>
 
-  <div class="flexing-container">
-    <div class="duck-cards">
-      <% current_user.searches.each do |search| %>
-        <div class="card-product border">
-
-          <div class="spaced-between">
-            <div class="card-product-infos">
-
-              <div class="blue-bar">
-              <p> My <%= search.specialty.name %> search</p>
-              </div>
-
-              <p>Location: <%= search.location %></p>
-              <p>Radius: <%= search.radius %></p>
-
-              <div style="display: flex; inline; justify-content: space-between;">
-                <%= link_to "delete", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat" %>
-              </div>
-            </div>
+  <div id="search-list">
+    <% current_user.searches.each do |search| %>
+      <div class="card-doc">
+        <div class="header-card">My <%= search.specialty.name %> search</div>
+        <div class="flex-card">
+          <div class="card-doc-info">
+            <p>Location: <%= search.location %></p>
+            <p>Radius: <%= search.radius %></p>
           </div>
-
+          <div style="display: flex; inline; justify-content: space-between;">
+            <%= link_to "delete", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat" %>
+          </div>
         </div>
-      <% end %>
-
-    </div>
+      </div>
+    <% end %>
   </div>
-
 </div>
