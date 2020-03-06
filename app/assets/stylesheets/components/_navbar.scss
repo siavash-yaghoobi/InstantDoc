@@ -36,6 +36,14 @@
   display: none;
 }
 
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  max-width: 250px;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+  z-index: 1000;
+}
+
 #toggle-map > span {
 }
 
@@ -45,4 +53,8 @@
 
 #toggle-map.show-list-text > .span-list {
   display: inherit;
+}
+
+#map {
+  z-index: -5;
 }
