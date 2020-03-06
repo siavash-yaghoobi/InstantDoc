@@ -9,20 +9,8 @@
   background-color: #F3AE3B;
 }
 
-#general-page {
-  .avatar {
-    padding-right: 0 !important;
-  }
-}
-
-#landing-page {
-  .avatar {
-    padding-right: 0 !important;
-  }
-}
-
 .avatar {
-  padding-right: 10px;
+  padding: 5px;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -36,6 +24,7 @@
 #navbarSupportedContent {
   display: block !important;
   left: 0;
+  height: fit-content;
 }
 
 .nav-link {
