@@ -16,6 +16,8 @@
       <%= render 'pages/homepage_navbar' %>
     <% elsif @doctors_navbar %>
       <%= render 'shared/navbar'  %>
+    <% elsif @dashboard_navbar  %>
+      <%= render 'shared/general_navbar' %>
     <% end %>
     <%= yield %>
     <%= javascript_include_tag 'application' %>
