@@ -12,7 +12,7 @@ class NotificationsController < ApplicationController
 
     if @appointment.status == "confirmed"
       @appointment.update(user: current_user)
-      # redirect_to my_appointments
+      redirect_to my_appointments_path
     else
       current_user.searches.where(specialty: @appointment.doctor.specialties).destroy_all
       # redirect to appointments#show
