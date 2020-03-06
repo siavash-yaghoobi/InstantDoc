@@ -9,15 +9,7 @@ class SearchPolicy < ApplicationPolicy
     record.user == user
   end
 #changed to not repeat record.user
-  def show?
-    index?
-  end
-
   def create?
-    index?
-  end
-
-  def edit?
     index?
   end
 
