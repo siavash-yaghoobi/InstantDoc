@@ -7,5 +7,5 @@ import { initMapbox } from '../components/init_mapbox';
 import { initSelect2 } from '../components/init_select2';
 
 
-initMapbox();
 initSelect2();
+initMapbox();
