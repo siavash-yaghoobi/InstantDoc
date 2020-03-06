@@ -14,7 +14,7 @@
     <%= render 'shared/flashes' %>
     <% if @home %>
       <%= render 'pages/homepage_navbar' %>
-    <% else %>
+    <% elsif @doctors_navbar %>
       <%= render 'shared/navbar'  %>
     <% end %>
     <%= yield %>
