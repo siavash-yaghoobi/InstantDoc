@@ -10,17 +10,18 @@
 
         <div class="spaced-between">
           <div class="card-product-infos">
-             <h1>My <%= search.location.capitalize %> <%= search.specialty.name %> search </h1>
+             <h1><%= link_to "My #{search.location.capitalize} #{search.specialty.name} search", search_path(search), class: "btn btn-flat" %></h1>
               <h2>your chosen specialty: <%= search.specialty.name %></h2>
               <br>
               <h5>your chosen location:<%= search.location %></h5>
               <br>
+                <%= link_to "Edit", edit_search_path(search), class: "btn btn-flat" %>
+                <%= link_to "delete", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat" %>
+              <br>
               <br>
               <p>your chosen radius:<%= search.radius %></p>
               <br>
-               <%= link_to "Edit", "#", class: "btn btn-flat" %>
-            <%= link_to "delete", "#", class: "btn btn-flat" %>
-             <br>
+
 
             </div>
           </div>

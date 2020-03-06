@@ -8,8 +8,20 @@ class SearchPolicy < ApplicationPolicy
   def index?
     record.user == user
   end
+#changed to not repeat record.user
+  def show?
+    index?
+  end
 
   def create?
-    record.user == user
+    index?
+  end
+
+  def edit?
+    index?
+  end
+
+  def destroy?
+    index?
   end
 end

@@ -1,10 +1,14 @@
 class SearchesController < ApplicationController
-  #before_action :set_specialties, only:
-  # skip_before_action :authenticate_user!, only: [:home, :index, :show]
+  before_action :set_search, only: [ :show, :edit, :destroy ]
 
   def index
     @searches = Search.all
     authorize @searches
+  end
+
+  def show
+    set_search
+    authorize @search
   end
 
   def create
@@ -18,10 +22,27 @@ class SearchesController < ApplicationController
     end
   end
 
+  def edit
+    @specialties = Specialty.all
+    authorize @search
+  end
+
+  def update
+    raise
+  end
+
+  def destroy
+    @search.destroy
+  end
+
   private
 
   def search_params
     params[:search].permit(:location, :radius, :specialty_id)
+  end
+
+  def set_search
+    @search = Search.find(params[:id])
   end
 
 end
