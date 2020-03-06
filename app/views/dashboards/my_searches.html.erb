@@ -1,13 +1,10 @@
 <div class="container" id="search">
-  <!-- <h1>Hi <%#= current_user.first_name %>!</h1> -->
-
   <h2 class="blue-bar" id="welcome-bar">My searches</h2>
-
   <div id="search-list">
     <% current_user.searches.each do |search| %>
-      <div class="card-doc">
+      <div class="card-doc" id="search">
         <div class="header-card">My <%= search.specialty.name %> search</div>
-        <div class="flex-card">
+        <div class="flex-card" id="flex-search">
           <div class="card-doc-info">
             <p>Location: <%= search.location %></p>
             <p>Radius: <%= search.radius %></p>
