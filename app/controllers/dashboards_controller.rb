@@ -4,7 +4,7 @@ class DashboardsController < ApplicationController
 
   def my_searches
     # creating instance variable doctors_navbar for if else in application erb file
-    @doctors_navbar = true
+    @dashboard_navbar = true
     @dashboard = Search.where("user_id == #{current_user.id}")
 
     # @dashboarda = @dashboard.searches.where(user.id == current_user)
@@ -13,7 +13,7 @@ class DashboardsController < ApplicationController
 
   def my_appointments
     # creating instance variable doctors_navbar for if else in application erb file
-    @doctors_navbar = true
+    @dashboard_navbar = true
     @dashboard_a = Appointment.where("user_id == #{current_user.id}")
   end
 end
