@@ -1,34 +1,27 @@
-<div class="container">
-  <h1>Hi <%= current_user.first_name %>!</h1>
-
-  <h2>My appointments</h2>
-  <br>
-  <div class="flexing-container">
-    <div class="duck-cards">
+<%= render 'shared/navbar' %>
+<div class="container" id="appointment">
+  <div id="doctor-list">
     <% current_user.appointments.each do |appointment| %>
-      <div class="card-product border">
-
-        <div class="spaced-between">
-          <div class="card-product-infos">
-             <<!-- h1>My appointment </h1>
-              <h2><%= appointment.doctorspecialty %></h2>
-              <br>
-              <h5>your chosen location:<%= appointment.location %></h5>
-              <br>
-              <br>
-              <p>your chosen radius:<%= appointment.radius %></p>
-              <br> -->
-               <%= link_to "Edit", "#", class: "btn btn-flat" %>
-            <%= link_to "delete", "#", class: "btn btn-flat" %>
- <br>
-            </div>
+      <div class="card-doc">
+        <div class="header-card">Schedule: <%= appointment.start_at %></div>
+        <div class="flex-card">
+          <img id="doc-image"src=<%=appointment.doctor.picture_url%> alt="A doctor">
+          <div class="card-doc-info">
+            <h5><%= appointment.doctor.first_name %> <%= appointment.doctor.last_name %></h5>
+            <% appointment.doctor.specialties.each do |specialty| %>
+              <p><%= specialty.name %></p>
+            <% end %>
+            <p><%= appointment.doctor.address %></p>
           </div>
+        </div>
       </div>
-  </div>
-<<<<<<< Updated upstream
-
-=======
     <% end %>
->>>>>>> Stashed changes
+  </div>
 </div>
-
+<%= render 'shared/map' %>
+<!--
+#appointment {
+  .card-doc {
+  flex-direction: column !important
+}
+} -->

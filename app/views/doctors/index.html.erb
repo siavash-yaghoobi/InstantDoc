@@ -2,29 +2,33 @@
 
 <div class="container">
   <div id='doctor-list'>
-    <% @doctors.each do |doctor| %>
-      <div class="card-doc">
-        <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
-        <div class="card-doc-info">
-          <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
-          <% doctor.specialties.each do |specialty| %>
-            <% if specialty.id == params[:specialties].to_i %>
-              <p class="card-doc-info-specialty"> <%= specialty.name %></p>
+    <% if @doctors.present? %>
+      <% @doctors.each do |doctor| %>
+        <div class="card-doc">
+          <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
+          <div class="card-doc-info">
+            <h3> <%= doctor.first_name %> <%= doctor.last_name %></h3>
+            <% doctor.specialties.each do |specialty| %>
+              <% if specialty.id == params[:specialties].to_i %>
+                <p class="card-doc-info-specialty"> <%= specialty.name %></p>
+              <% end %>
             <% end %>
-          <% end %>
-          <p> <%= doctor.address %></p>
-          <p><span> <%= doctor.waiting_time %></span> hr avg. queue time</p>
+            <p> <%= doctor.address %></p>
+            <p><span> <%= doctor.waiting_time %></span> hr avg. queue time</p>
+          </div>
         </div>
-      </div>
+      <% end %>
+    </div>
+      <%= form_for @search do |f| %>
+        <%= f.hidden_field :specialty_id, { :value => params[:specialties] } %>
+        <%= f.hidden_field :location, { :value => params[:location] } %>
+        <%= f.hidden_field :radius, { :value => params[:radius] } %>
+        <%= f.submit "Notify Me", :class => 'btn btn-ter' %>
+      <% end %>
+    <% else %>
+      <h1>Sorry no results!</h1>
     <% end %>
   </div>
-    <%= form_for @search do |f| %>
-      <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
-      <%= f.hidden_field :location, { :value => params[:location] } %>
-      <%= f.hidden_field :radius, { :value => params[:radius] } %>
-      <%= f.submit "Notify Me", :class => 'btn btn-ter' %>
-    <% end %>
-</div>
 
-<%= render 'shared/map' %>
+  <%= render 'shared/map' %>
 
