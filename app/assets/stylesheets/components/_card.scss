@@ -24,7 +24,16 @@
   flex-direction: column !important;
   padding-left: 0 !important;
   border: solid 1px #BAE8E8
-}}
+  }
+}
+
+#search {
+  .card-doc {
+  flex-direction: column !important;
+  padding-left: 0 !important;
+  border: solid 1px #BAE8E8
+  }
+}
 
 #doc-image {
   width: 90px;

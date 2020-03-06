@@ -4,7 +4,7 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  margin: 0px 0;
+  margin: 2px 0;
 }
 
 .card-product img {
@@ -14,9 +14,16 @@
 }
 
 .blue-bar {
-  background-color: #BAE8E8
+  background-color: #BAE8E8;
+}
 
-
+#welcome-bar {
+   background-color: #F3AE3B;
+   text-align: center;
+   color:  #006565;
+   font-weight: bold;
+   font-size: 18px;
+   padding-bottom: 5px;
 }
 
 .card-product h2 {
@@ -58,10 +65,4 @@
 
 .column-direction {
   flex-direction: column;
-}
-
-.duck-cards {
-  flex-grow: 1;
-  margin-top: 4px;
-  margin-right: 20px;
 }
