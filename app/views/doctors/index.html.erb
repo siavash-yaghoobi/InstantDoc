@@ -17,7 +17,7 @@
     <% end %>
 
     <%= form_for @search do |f| %>
-      <%= f.hidden_field :specialty, { :value => params[:specialties] } %>
+      <%= f.hidden_field :specialty_id, { :value => params[:specialties] } %>
       <%= f.hidden_field :location, { :value => params[:location] } %>
       <%= f.hidden_field :radius, { :value => params[:radius] } %>
       <%= f.submit "Notify Me", :class => 'btn btn-ter' %>

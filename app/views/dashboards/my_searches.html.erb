@@ -5,7 +5,6 @@
 
   <div class="flexing-container">
     <div class="duck-cards">
-
       <% current_user.searches.each do |search| %>
         <div class="card-product border">
 
@@ -13,15 +12,14 @@
             <div class="card-product-infos">
 
               <div class="blue-bar">
-              <p><%= search.specialty.name %> search</p>
+              <p> My <%= search.specialty.name %> search</p>
               </div>
 
               <p>Location: <%= search.location %></p>
               <p>Radius: <%= search.radius %></p>
 
               <div style="display: flex; inline; justify-content: space-between;">
-                <%= link_to "delete", "#", class: "btn btn-flat" %>
-                <%= link_to "Edit", "#", class: "btn btn-flat" %>
+                <%= link_to "delete", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat" %>
               </div>
             </div>
           </div>
