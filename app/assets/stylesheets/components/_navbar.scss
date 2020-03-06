@@ -5,6 +5,10 @@
   top: 0;
 }
 
+.avatar {
+  padding-left: 5px;
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
@@ -26,17 +30,16 @@
   height: 50px;
 }
 
-#toggle-map > .span-list {
+#toggle-map > span {
   padding-top: 5px;
   width: 40px;
-}
-
-#toggle-map > .image-map,
-#toggle-map > .span-list {
   display: none;
 }
 
-#toggle-map.show-map-icon > .image-map {
+#toggle-map > span {
+}
+
+#toggle-map.show-map-text > .span-map {
   display: inherit;
 }
 

@@ -1,0 +1,27 @@
+<%= render 'shared/navbar' %>
+<div class="container" id="appointment">
+  <div id="doctor-list">
+    <% current_user.appointments.each do |appointment| %>
+      <div class="card-doc">
+        <div class="header-card">Schedule: <%= appointment.start_at %></div>
+        <div class="flex-card">
+          <img id="doc-image"src=<%=appointment.doctor.picture_url%> alt="A doctor">
+          <div class="card-doc-info">
+            <h5><%= appointment.doctor.first_name %> <%= appointment.doctor.last_name %></h5>
+            <% appointment.doctor.specialties.each do |specialty| %>
+              <p><%= specialty.name %></p>
+            <% end %>
+            <p><%= appointment.doctor.address %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+<%= render 'shared/map' %>
+<!--
+#appointment {
+  .card-doc {
+  flex-direction: column !important
+}
+} -->
