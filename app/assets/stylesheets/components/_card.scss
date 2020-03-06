@@ -27,12 +27,15 @@
   }
 }
 
+#flex-search {
+  justify-content: space-between;
+}
+
 #search {
-  .card-doc {
   flex-direction: column !important;
   padding-left: 0 !important;
-  border: solid 1px #BAE8E8
-  }
+  border: solid 1px #BAE8E8;
+  align-items: stretch !important;
 }
 
 #doc-image {
