@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   resources :specialties, only: %i[index]
   get "my_searches", to: "dashboards#my_searches"
   get "my_appointments", to: "dashboards#my_appointments"
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+  resources :notifications, only: [:show, :update]
 end
