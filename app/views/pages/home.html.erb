@@ -16,16 +16,13 @@
               class: 'form-control',
               id: 'address-input',
               required: true %>
-            <div class="distance-wrapper"><p>Distance from location (in km): </p></div>
+            <div class="distance-wrapper"><p>Distance from location: </p></div>
             <%= range_field_tag(:radius, :radius, in: 0..150, step: 5, class: 'form-control') %>
-            <div class="target">5</div>
+            <div class="rd-wrapper">
+              <div class="target">5 </div><span> km</span>
+            </div>
             <%= submit_tag "Search", class: "btn-yellow mt-3" %>
         <% end %>
-      </div>
-    </div>
-    <div class="home-footer">
-      <div class="home-card">
-
       </div>
     </div>
   </div>

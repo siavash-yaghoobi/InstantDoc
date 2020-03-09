@@ -1,6 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background:  #F5BC5F;
+  background:  #006565;
   position: sticky;
   top: 0;
 }
@@ -11,6 +11,7 @@
 
 .avatar {
   padding: 5px;
+  border-radius: 0;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -28,7 +29,7 @@
 }
 
 .nav-link {
-  color: #272343;
+  color: #006565;
 }
 
 #toggle-map {
@@ -55,16 +56,22 @@
 
 #toggle-map.show-map-text > .span-map {
   display: inherit;
-  color: #006565;
+  color: #F5BC5F;
   padding-left: 10px;
 }
 
 #toggle-map.show-list-text > .span-list {
   display: inherit;
-  color: #006565;
+  color: #F5BC5F;
   padding-left: 10px;
 }
 
 #map {
   z-index: -5;
+  border-radius: 0;
+  margin: 0;
+}
+
+.dropdown-item {
+  color: #006565;
 }
