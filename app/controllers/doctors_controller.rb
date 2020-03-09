@@ -2,6 +2,7 @@ class DoctorsController < ApplicationController
   before_action :set_specialties, only: :index
   skip_before_action :authenticate_user!, only: %i[index]
 
+
   def index
     @doctors_navbar = true
     if params[:specialties].present? && params[:location].present? # We check if the user gave as a specitly

@@ -5,12 +5,12 @@
 # # #
 # # #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 # # #   Character.create(name: 'Luke', movie: movies.first)
-# DoctorSpecialty.destroy_all
-# Search.destroy_all
-# Specialty.destroy_all
-# Doctor.destroy_all
+DoctorSpecialty.destroy_all
+Search.destroy_all
+Specialty.destroy_all
+Doctor.destroy_all
 
-# p "Destroying all seeds.."
+p "Destroying all seeds.."
 
 # # specialties = Specialty.create([{name: 'Allergy & Immunology'}, {name: 'Anesthesiology & Pain Medicine'}, {name: 'Cardiology'}, {name: 'Colon & Rectal Surgery'}, {name: 'Dermatology'}, {name: 'Emergency Medicine'}, {name: 'General Medicine'}, {name: 'Internal Medicine'}, {name: 'Medical Genetics'}, {name: 'Neurological Surgery'}, {name: 'Nuclear Medicine'}, {name: 'Obstetrics & Gynecology'}, {name: 'Ophthalmology'}, {name: 'Orthopaedic Surgery'}, {name: 'Otolaryngology'}, {name:'Pathology-Anatomic & Clinical / Hematology'}, {name: 'Pediatrics'}, {name: 'Physical Medicine & Rehabilitation'}, {name:'Plastic Surgery'}, {name: 'Pediatrics'}, {name: 'Psychiatry'}, {name: 'Radiation Oncology'}, {name: 'Radiology-Diagnostic'}, {name: 'Sleep Medicine'}, {name: 'Surgery-General'}, {name: 'Urology'}])
 
@@ -71,54 +71,52 @@
 # # DoctorSpecialty.create(doctor_id: doctor20.id, specialty_id: Specialty.find_by(name:'General Medicine').id)
 # # DoctorSpecialty.create(doctor_id: doctor18.id, specialty_id: Specialty.find_by(name:'Pediatrics').id)
 
-require 'json'
-require 'nokogiri'
 require 'open-uri'
-require 'pry'
 
-# page_counter = 1
-# avg_waiting_time = (2..48).to_a
 
-# 12.times do
-#   p 'page: ' + page_counter.to_s
-#   doctor_html = "https://en.bookimed.com/doctors/country=germany/page=#{page_counter}/"
+page_counter = 1
+avg_waiting_time = (2..48).to_a
 
-#   html = open(doctor_html).read
-#   doc = Nokogiri::HTML(html)
-#   page_counter += 1
-#   doc.search('.clinics-content-card-item--doctor').each do |element|
-#     first_name = element.search('h2').text.strip.split[0] #This is the first name
-#     last_name = element.search('h2').text.strip.split[1] #this is the second name
-#     picture_url = element.search('.clinics-content-card-img img').first.attributes.first.last.value
-#     address = element.search('.doctors-clinic-contact-item-title').text
-#     city = element.search('.name').text.strip.split(",")[1].strip # this is address
-#     full_address = "#{address}, #{city}"
-#     if Geocoder.search(full_address).empty?
-#       setting_address = city
-#     else
-#       setting_address = full_address
-#     end
-#     specialties = element.search('.clinics-content-card-country-name').text.strip.split(',') #these are all the spcialites
-#     doctor = Doctor.new(first_name: first_name, last_name: last_name, address: setting_address, picture_url: picture_url, waiting_time: avg_waiting_time.sample)
-#     specialties.each do |specialty|
+12.times do
+  p 'page: ' + page_counter.to_s
+  doctor_html = "https://en.bookimed.com/doctors/country=germany/page=#{page_counter}/"
 
-#       Specialty.create(name: specialty.strip) unless Specialty.find_by name: specialty.strip
-#       new_specialty = Specialty.find_by name: specialty.strip
-#       doctor.specialties << new_specialty
-#     end
-#     doctor.save
-#     p doctor.first_name
-#     p doctor.last_name
-#     p doctor.specialties
-#     p doctor.address
-#     p 'Doctor added'
-#     p '-----------------------------'
+  html = open(doctor_html).read
+  doc = Nokogiri::HTML(html)
+  page_counter += 1
+  doc.search('.clinics-content-card-item--doctor').each do |element|
+    first_name = element.search('h2').text.strip.split[0] #This is the first name
+    last_name = element.search('h2').text.strip.split[1] #this is the second name
+    picture_url = element.search('.clinics-content-card-img img').first.attributes.first.last.value
+    address = element.search('.doctors-clinic-contact-item-title').text
+    city = element.search('.name').text.strip.split(",")[1].strip # this is address
+    full_address = "#{address}, #{city}"
+    if Geocoder.search(full_address).empty?
+      setting_address = city
+    else
+      setting_address = full_address
+    end
+    specialties = element.search('.clinics-content-card-country-name').text.strip.split(',') #these are all the spcialites
+    doctor = Doctor.new(first_name: first_name, last_name: last_name, address: setting_address, picture_url: picture_url, waiting_time: avg_waiting_time.sample)
+    specialties.each do |specialty|
 
-#   end
-#     sleep 5
-# end
-# p "seeds done"
-filepath = Rails.root.join('seeding_data.json')
+      Specialty.create(name: specialty.strip) unless Specialty.find_by name: specialty.strip
+      new_specialty = Specialty.find_by name: specialty.strip
+      doctor.specialties << new_specialty
+    end
+    doctor.save
+    p doctor.first_name
+    p doctor.last_name
+    p doctor.specialties
+    p doctor.address
+    p 'Doctor added'
+    p '-----------------------------'
+
+  end
+    sleep 5
+end
+p "seeds done"
+# filepath = Rails.root.join('seeding_data.json')
 
 # seeds = { doctors: [], specialties: []}
 
@@ -132,12 +130,11 @@ filepath = Rails.root.join('seeding_data.json')
 #   seeds[:doctors] << { first_name: doc.first_name,
 #     last_name: doc.last_name,
 #     address: doc.address,
-#     specialties: doc.specialties,
+#     specialties: doc.specialties.to_a.map { |s| s.attributes.slice("id", "name") },
 #     picture_url: doc.picture_url,
 #     waiting_time: doc.waiting_time
 #   }
 # end
-
 # File.open(filepath, 'wb') do |file|
 #   file.write(JSON.generate(seeds))
 # end
@@ -145,7 +142,7 @@ filepath = Rails.root.join('seeding_data.json')
 
 
 
-serialized_seeds = File.read(filepath)
+# # serialized_seeds = File.read(filepath)
 
-seeds = JSON.parse(serialized_seeds)
-binding.pry
+# # seeds = JSON.parse(serialized_seeds)
+# # Doctor.create!(seeds["doctors"])
