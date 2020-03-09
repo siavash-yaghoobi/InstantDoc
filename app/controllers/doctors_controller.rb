@@ -6,7 +6,7 @@ class DoctorsController < ApplicationController
   def index
     @doctors_navbar = true
     if params[:specialties].present? && params[:location].present? # We check if the user gave as a specitly
-      radius = params[:radius].empty? ? 5 : params[:radius].to_i - 70
+      radius = params[:radius].empty? ? 5 : params[:radius].to_i
       @doctors = policy_scope(Doctor.geocoded.near(params[:location], radius).joins(:specialties).where({ specialties: { id: params[:specialties].to_i } })) # We search for a doctor with this specialty
       @search = Search.new
     else

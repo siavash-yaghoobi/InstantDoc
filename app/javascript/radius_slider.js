@@ -1,16 +1,25 @@
-$(document).ready(function(){
-  updateRangeValue($('input[type=range]'));
-  $('input[type=range]').on('input change',function(){
-    var input = $(this);
-    updateRangeValue(input);
-  });
-});
-function updateRangeValue(input){
-  var value = input.val() - 70;
-  var maximum = input.attr('max');
-  var inputWidth = input.width();
-  var offLeft = Math.floor((value / maximum) * inputWidth - (((value / maximum) * inputWidth - inputWidth/2) / 100) * 24);
-  var offLeftAbs = value == maximum ? input.offset().left - 15 + offLeft : input.offset().left - 10 + offLeft;
-  input.next('.target').css({'left': offLeftAbs +'px'});
-  input.next('.target').html(value);
-}
+// import $ from 'jquery';
+
+// const rangeSlider = () => {
+//   $(document).ready(function(){
+//   updateRangeValue($('input[type=range]'));
+//   $('input[type=range]').on('input change',function(){
+//     var input = $(this);
+//     updateRangeValue(input);
+//   });
+// });
+// }
+
+// function updateRangeValue(input){
+//   var value = input.val();
+//   const tar = document.getElementById('target')
+//   if (value < 0) {
+//     tar.innerHTML = 0;
+//   } else {
+//     tar.innerHTML = value;
+//   }
+//   // console.log(value)
+//   // input.next('#target').html(value);
+// }
+
+// export { rangeSlider }

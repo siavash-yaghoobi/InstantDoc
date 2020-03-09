@@ -13,15 +13,12 @@
             <%= text_field_tag :location,
               params[:location], as: :string,
               placeholder: 'Enter location (address, city, etc)',
-              class: 'form-control',
               id: 'address-input',
               required: true %>
-            <div class="distance-wrapper"><p>Distance from location: </p></div>
-            <%= range_field_tag(:radius, :radius, in: 0..150, step: 5, class: 'form-control') %>
-            <div class="rd-wrapper">
-              <div class="target">5 </div><span> km</span>
-            </div>
-            <%= submit_tag "Search", class: "btn-yellow mt-3" %>
+            <%= label_tag "radius", "Travel distance" %>
+            <%= select_tag "radius", options_from_collection_for_select([[2, "2 km"], [5, "5 km"], [10, "10 km"], [25, "25 km"], [5, "50 km"]], :first, :last) %>
+            <%#= range_field_tag(:radius, 0, max: 150, step: 5, class: 'form-control') %>
+            <%= submit_tag "Get your appointment!", class: "btn-yellow mt-3" %>
         <% end %>
       </div>
     </div>
