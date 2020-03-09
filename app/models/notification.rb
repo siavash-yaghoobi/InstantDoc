@@ -11,7 +11,7 @@ class Notification < ApplicationRecord
 
     text = "Dr. #{appointment.doctor.last_name} is available in #{distance_of_time_in_words_to_now(appointment.start_at)}.\n"
     text += "Go to #{url} to confirm."
-    TwilioClient.new.send_message(text)
+    TwilioClient.new.send_message(text, self.user)
 
 
   end
