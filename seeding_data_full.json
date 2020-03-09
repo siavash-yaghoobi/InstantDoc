@@ -4,438 +4,215 @@
       "first_name": "Ralf",
       "last_name": "Buhl",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 211,
-          "name": "Spine neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d74da0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6024f1fc6_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 21
     },
     {
       "first_name": "Boris",
       "last_name": "Pfaffenbach",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d83490>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60222c3a5_b.jpeg",
-      "waiting_time": 31
+      "waiting_time": 44
     },
     {
       "first_name": "Sebastian",
       "last_name": "Hentsch",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d81910>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf602331432_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 34
     },
     {
       "first_name": "Friedemann",
       "last_name": "Schad",
       "address": "Hospital Havelhoehe, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 215,
-          "name": "Therapist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d93ae8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e041c61_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 20
     },
     {
       "first_name": "Uta",
       "last_name": "Meyding-Lamade",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d925a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf607375945_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 45
     },
     {
       "first_name": "Sasсha",
       "last_name": "Flohé",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d90d70>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6022b2e0a_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 3
     },
     {
       "first_name": "Sebastian",
       "last_name": "Melchior",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 218,
-          "name": "Transplant surgeon"
-        },
-        {
-          "id": 219,
-          "name": "Urological surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d9f8c0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a3f4122_b.jpeg",
-      "waiting_time": 26
+      "waiting_time": 23
     },
     {
       "first_name": "Christian",
       "last_name": "Grah",
       "address": "Hospital Havelhoehe, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 220,
-          "name": "Pulmonologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d9e9c0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e8405c9_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 44
     },
     {
       "first_name": "Michael",
       "last_name": "Schenk",
       "address": "Hospital Havelhoehe, Berlin",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54d9c990>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e69a13a_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 42
     },
     {
       "first_name": "Gerhard",
       "last_name": "Hoffman",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 222,
-          "name": "Vascular surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54daa888>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60227daaf_b.jpeg",
-      "waiting_time": 46
+      "waiting_time": 43
     },
     {
       "first_name": "Andreas",
       "last_name": "Gross",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        },
-        {
-          "id": 224,
-          "name": "Transplantologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54da8100>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ad612e3_b.jpeg",
-      "waiting_time": 4
+      "waiting_time": 27
     },
     {
       "first_name": "Henrik",
       "last_name": "Becker",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 220,
-          "name": "Pulmonologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54dc59d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60362a733_b.jpeg",
-      "waiting_time": 14
+      "waiting_time": 11
     },
     {
       "first_name": "Bernd",
       "last_name": "Kabelka",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54dda8d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60337182d_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 18
     },
     {
       "first_name": "Marcus",
       "last_name": "Goyzer",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ddeef8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6021d2f7b_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 25
     },
     {
       "first_name": "Andreas",
       "last_name": "Sesterhenn",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 225,
-          "name": "Otorhinolaryngologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ddd148>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6041b294d_b.jpeg",
-      "waiting_time": 38
+      "waiting_time": 34
     },
     {
       "first_name": "Michael",
       "last_name": "Unch",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54deb6d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf603b07015_b.jpeg",
-      "waiting_time": 10
+      "waiting_time": 43
     },
     {
       "first_name": "Uwe",
       "last_name": "Neubauer",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54de91a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6081b5d48_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 34
     },
     {
       "first_name": "Patricia",
       "last_name": "Dé-Malter",
       "address": "Hospital Havelhoehe, Berlin",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54dfae50>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e423c21_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 29
     },
     {
       "first_name": "Axel",
       "last_name": "Stang",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 226,
-          "name": "Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54df93e8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a857c16_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 36
     },
     {
       "first_name": "Uwe",
       "last_name": "Trefzer",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e0e6a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6097b301e_b.jpeg",
-      "waiting_time": 12
+      "waiting_time": 21
     },
     {
       "first_name": "L.",
       "last_name": "Rainer",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        },
-        {
-          "id": 228,
-          "name": "Plastic Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e23dc8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf609816713_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 17
     },
     {
       "first_name": "Daniel",
       "last_name": "Kendoff",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        },
-        {
-          "id": 229,
-          "name": "Orthopedic surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e21b40>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6098be767_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 46
     },
     {
       "first_name": "Horst",
       "last_name": "Glasner",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e206a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6068021ea_b.jpeg",
-      "waiting_time": 7
+      "waiting_time": 10
     },
     {
       "first_name": "Jens",
       "last_name": "E.",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 230,
-          "name": "Clinical oncologist"
-        },
-        {
-          "id": 231,
-          "name": "ENT doctor"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e37440>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60582b879_b.jpeg",
-      "waiting_time": 37
+      "waiting_time": 30
     },
     {
       "first_name": "Rainer",
       "last_name": "Porschen",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e35dc0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf608180487_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 25
     },
     {
       "first_name": "Andreas",
       "last_name": "Naumann",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 225,
-          "name": "Otorhinolaryngologist"
-        },
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e34ce0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf608242c10_b.jpeg",
-      "waiting_time": 38
+      "waiting_time": 43
     },
     {
       "first_name": "Michael",
       "last_name": "Friedrich",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 233,
-          "name": "Obstetrician-gynecologist"
-        },
-        {
-          "id": 234,
-          "name": "Gynecologic oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e47250>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf603ac6c2c_b.jpeg",
       "waiting_time": 14
     },
@@ -443,285 +220,143 @@
       "first_name": "Ralf",
       "last_name": "Hempelmann",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e463c8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a9178aa_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 2
     },
     {
       "first_name": "Matthias",
       "last_name": "Schlensak",
       "address": "St. Martinus-Krankenhaus Düsseldorf, Dusseldorf",
-      "specialties": [
-        {
-          "id": 235,
-          "name": "Endocrinologist"
-        },
-        {
-          "id": 236,
-          "name": "Bariatric Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e53bb8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf606cbb564_b.jpeg",
-      "waiting_time": 20
+      "waiting_time": 11
     },
     {
       "first_name": "Martin",
       "last_name": "Claßen",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e526f0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60812a0db_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 29
     },
     {
       "first_name": "Eckhart",
       "last_name": "Kämpgen",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e51048>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6097d8903_b.jpeg",
-      "waiting_time": 17
+      "waiting_time": 45
     },
     {
       "first_name": "Thomas",
       "last_name": "Verse",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e500f8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf605cbcb12_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 43
     },
     {
       "first_name": "Axel",
       "last_name": "Hillmann",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e66e98>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61053fe9f_b.jpeg",
-      "waiting_time": 25
+      "waiting_time": 44
     },
     {
       "first_name": "Andreas",
       "last_name": "Hufnagel",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e65db8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60cdc5345_b.jpeg",
-      "waiting_time": 39
+      "waiting_time": 38
     },
     {
       "first_name": "Jorg",
       "last_name": "Groticke",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e7b4b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60dff2bf7_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 42
     },
     {
       "first_name": "Peter",
       "last_name": "Paul",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e796d8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e06f91c_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 6
     },
     {
       "first_name": "Gerd",
       "last_name": "Friedrich",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        },
-        {
-          "id": 228,
-          "name": "Plastic Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e83bb0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60babbf4c_b.jpeg",
-      "waiting_time": 17
+      "waiting_time": 47
     },
     {
       "first_name": "Manfred",
       "last_name": "Tetz",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e827b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c63d2fd_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 23
     },
     {
       "first_name": "Kurt",
       "last_name": "Miller",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        },
-        {
-          "id": 224,
-          "name": "Transplantologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54e80668>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e793f0d_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 44
     },
     {
       "first_name": "Wolfgang",
       "last_name": "Schwenk",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ea21a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e8d2e95_b.jpeg",
-      "waiting_time": 31
+      "waiting_time": 24
     },
     {
       "first_name": "Thomas",
       "last_name": "Carus",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 235,
-          "name": "Endocrinologist"
-        },
-        {
-          "id": 236,
-          "name": "Bariatric Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ea02b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf608011e97_b.jpeg",
-      "waiting_time": 13
+      "waiting_time": 6
     },
     {
       "first_name": "Michael",
       "last_name": "Paul",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54eaf120>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf609be4261_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 42
     },
     {
       "first_name": "Huseyin",
       "last_name": "Bektas",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54eadf78>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5e41760beffc4_b.jpeg",
-      "waiting_time": 15
+      "waiting_time": 33
     },
     {
       "first_name": "Gerhard",
       "last_name": "Gebauer",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54eacdf8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611b3b8bd_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 38
     },
     {
       "first_name": "Jürgen",
       "last_name": "Kiwit",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 238,
-          "name": "Pediatric Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ebf430>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf604e21cfc_b.jpeg",
       "waiting_time": 40
     },
@@ -729,63 +364,31 @@
       "first_name": "Christian",
       "last_name": "Witt",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ebd9f0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60b37441d_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 9
     },
     {
       "first_name": "Mark",
       "last_name": "Schrader",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ebc500>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e76bf87_b.jpeg",
-      "waiting_time": 19
+      "waiting_time": 4
     },
     {
       "first_name": "Michael",
       "last_name": "Schütz",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ece020>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ed58c6d_b.jpeg",
-      "waiting_time": 33
+      "waiting_time": 38
     },
     {
       "first_name": "Juergen",
       "last_name": "Pohl",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ecd2b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ae8b5f6_b.jpeg",
       "waiting_time": 11
     },
@@ -793,193 +396,111 @@
       "first_name": "Michael",
       "last_name": "Schmoeckel",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54eebe18>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60794c789_b.jpeg",
-      "waiting_time": 25
+      "waiting_time": 24
     },
     {
       "first_name": "Joachim",
       "last_name": "Pfannschmidt",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ee9e38>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60b30c97d_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 12
     },
     {
       "first_name": "Antje-Katrin",
       "last_name": "Hofele",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ee86c8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf609b9b8b5_b.jpeg",
-      "waiting_time": 31
+      "waiting_time": 18
     },
     {
       "first_name": "Ulrich",
       "last_name": "Schaudig",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ef73f8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c66563d_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 27
     },
     {
       "first_name": "Bernd",
       "last_name": "Schroeder",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ef60e8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c754ff3_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 19
     },
     {
       "first_name": "Thomas",
       "last_name": "Mansfeld",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54efbe80>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60bb94869_b.jpeg",
-      "waiting_time": 19
+      "waiting_time": 11
     },
     {
       "first_name": "Volker",
       "last_name": "Steinkraus",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54efa2b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6098427e8_b.jpeg",
-      "waiting_time": 24
+      "waiting_time": 27
     },
     {
       "first_name": "Dieter",
       "last_name": "Ukena",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ef9130>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e867147_b.jpeg",
-      "waiting_time": 29
+      "waiting_time": 44
     },
     {
       "first_name": "Michael",
       "last_name": "Stoffel",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f175b8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611f2f0ca_b.jpeg",
-      "waiting_time": 39
+      "waiting_time": 40
     },
     {
       "first_name": "Kristian",
       "last_name": "Reich",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f150b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf609868b55_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 22
     },
     {
       "first_name": "Jorn",
       "last_name": "Halberstadt",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f1fb50>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a7bfb18_b.jpeg",
-      "waiting_time": 15
+      "waiting_time": 26
     },
     {
       "first_name": "Peter",
       "last_name": "Reichardt",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f1e110>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60fdcbf65_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 26
     },
     {
       "first_name": "Agoritsa",
       "last_name": "Stergiou-Tsaroucha",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f1c018>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60faef244_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 25
     },
     {
       "first_name": "Veit",
       "last_name": "Becker",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f3c3e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60cdea8e7_b.jpeg",
       "waiting_time": 14
     },
@@ -987,170 +508,87 @@
       "first_name": "Klaus",
       "last_name": "D.",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f4a7b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6105b6847_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 19
     },
     {
       "first_name": "Gerd-Rüdiger",
       "last_name": "Burmester",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 240,
-          "name": "Immunologist"
-        },
-        {
-          "id": 241,
-          "name": "Rheumatologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f48f50>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611203c74_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 12
     },
     {
       "first_name": "Mustafa",
       "last_name": "Aydogdu",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f4f648>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60fd93adf_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 6
     },
     {
       "first_name": "Ihab.",
       "last_name": "El-Bably",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f4c718>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c792679_b.jpeg",
-      "waiting_time": 26
+      "waiting_time": 39
     },
     {
       "first_name": "Bodo",
       "last_name": "Lippitz",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52d82f10>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6120dd5d5_b.jpeg",
-      "waiting_time": 33
+      "waiting_time": 29
     },
     {
       "first_name": "Johann",
       "last_name": "Ockenga",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 240,
-          "name": "Immunologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f9af30>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60dfbd46a_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 43
     },
     {
       "first_name": "Antonia",
       "last_name": "Joussen",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f933c0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60fbcb516_b.jpeg",
-      "waiting_time": 4
+      "waiting_time": 18
     },
     {
       "first_name": "Per-Ulf",
       "last_name": "Tunn",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 242,
-          "name": "Pediatric Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54f912a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610d41f8c_b.jpeg",
-      "waiting_time": 33
+      "waiting_time": 37
     },
     {
       "first_name": "Cornelia",
       "last_name": "Dotzenrath",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 235,
-          "name": "Endocrinologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fadbd0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e2166a9_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 29
     },
     {
       "first_name": "Thomas",
       "last_name": "Grundmann",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 225,
-          "name": "Otorhinolaryngologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fac578>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61072eeff_b.jpeg",
-      "waiting_time": 38
+      "waiting_time": 27
     },
     {
       "first_name": "Carsten",
       "last_name": "Michael",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fc2af8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60fd64dd0_b.jpeg",
       "waiting_time": 33
     },
@@ -1158,385 +596,207 @@
       "first_name": "Human",
       "last_name": "Zafiarian",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fc15e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf609e28809_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 38
     },
     {
       "first_name": "Holger",
       "last_name": "Mellerowicz",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fd3dd0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610a6db33_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 33
     },
     {
       "first_name": "Plamen",
       "last_name": "Staikov",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 243,
-          "name": "Gastrointestinal surgeon"
-        },
-        {
-          "id": 244,
-          "name": "General surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fd1490>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf613189142_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 48
     },
     {
       "first_name": "Angelika",
       "last_name": "Eggert",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        },
-        {
-          "id": 242,
-          "name": "Pediatric Oncologist"
-        },
-        {
-          "id": 245,
-          "name": "Pediatrician"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fd0428>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6111616ec_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 32
     },
     {
       "first_name": "Guenter",
       "last_name": "Seidel",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fdebe0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ba8b9ed_b.jpeg",
-      "waiting_time": 4
+      "waiting_time": 40
     },
     {
       "first_name": "Alessandro",
       "last_name": "Marra",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fddf88>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e89a5d2_b.jpeg",
-      "waiting_time": 32
+      "waiting_time": 10
     },
     {
       "first_name": "Volker",
       "last_name": "Budach",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54fdc7a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e9a455b_b.jpeg",
-      "waiting_time": 26
+      "waiting_time": 28
     },
     {
       "first_name": "Manuela",
       "last_name": "Seifert",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 234,
-          "name": "Gynecologic oncologist"
-        },
-        {
-          "id": 246,
-          "name": "Surgical oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ff72d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61128a527_b.jpeg",
-      "waiting_time": 4
+      "waiting_time": 5
     },
     {
       "first_name": "Matthias",
       "last_name": "Endres",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ff6560>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60d381c7d_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 19
     },
     {
       "first_name": "Stefan",
       "last_name": "Schreiber",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ff5228>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c24484d_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 23
     },
     {
       "first_name": "Klaus",
       "last_name": "Luque",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea54ff4468>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5ad6ef1702e91_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 6
     },
     {
       "first_name": "Walter",
       "last_name": "Zidek",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 224,
-          "name": "Transplantologist"
-        },
-        {
-          "id": 247,
-          "name": "Nephrologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5500ac18>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61102c757_b.jpeg",
-      "waiting_time": 39
+      "waiting_time": 23
     },
     {
       "first_name": "Arne-Joern",
       "last_name": "Lemke",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55008878>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5ad6f32de4f99_b.jpeg",
-      "waiting_time": 45
+      "waiting_time": 25
     },
     {
       "first_name": "Peter",
       "last_name": "Vajkoczy",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5501b180>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60daa5b12_b.jpeg",
-      "waiting_time": 12
+      "waiting_time": 10
     },
     {
       "first_name": "Klaus",
       "last_name": "Schaarschmidt",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55019c18>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf601d218d4_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 42
     },
     {
       "first_name": "Mark",
       "last_name": "Hartel",
       "address": "Dortmund",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55027f48>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60add8d26_b.jpeg",
-      "waiting_time": 25
+      "waiting_time": 14
     },
     {
       "first_name": "Roland",
       "last_name": "Veltkamp",
       "address": "Alfried Krupp Krankenhaus, Essen",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55025db0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf613bed7e4_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 46
     },
     {
       "first_name": "Ralf",
       "last_name": "Jung",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 235,
-          "name": "Endocrinologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55024528>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6132239df_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 14
     },
     {
       "first_name": "Guido",
       "last_name": "Opitz",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55042938>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60b05e0f3_b.jpeg",
-      "waiting_time": 47
+      "waiting_time": 48
     },
     {
       "first_name": "Norbert",
       "last_name": "Schmitz",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5502bda0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61067bd8f_b.jpeg",
-      "waiting_time": 12
+      "waiting_time": 46
     },
     {
       "first_name": "Petra",
       "last_name": "Reemts",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550285b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60fa85383_b.jpeg",
-      "waiting_time": 24
+      "waiting_time": 18
     },
     {
       "first_name": "Frank",
       "last_name": "Kolligs",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e08750>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610cc98dc_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 43
     },
     {
       "first_name": "Dieter",
       "last_name": "Hammel",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e22ce0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611bd0726_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 3
     },
     {
       "first_name": "Arne",
       "last_name": "Brecht",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e3b7e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6106b4c69_b.jpeg",
-      "waiting_time": 10
+      "waiting_time": 26
     },
     {
       "first_name": "Reiner",
       "last_name": "Haas",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e38ef0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61083584c_b.jpeg",
-      "waiting_time": 21
+      "waiting_time": 27
     },
     {
       "first_name": "Christian",
       "last_name": "Sander",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e3f868>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60f379dc1_b.jpeg",
       "waiting_time": 45
     },
@@ -1544,2052 +804,1196 @@
       "first_name": "Michael",
       "last_name": "Heike",
       "address": "Dortmund",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e3e508>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ad9f70f_b.jpeg",
-      "waiting_time": 6
+      "waiting_time": 48
     },
     {
       "first_name": "Peter",
       "last_name": "Ulrich",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 238,
-          "name": "Pediatric Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e3d5b8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b210d044e4a2_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 29
     },
     {
       "first_name": "Felix",
       "last_name": "Berger",
       "address": "Deutsches Herzzentrum Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 249,
-          "name": "Pediatric Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e3c2d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61279b97b_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 3
     },
     {
       "first_name": "Ernst-Johannes",
       "last_name": "Haberl",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 238,
-          "name": "Pediatric Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e56ae0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6128541d8_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 28
     },
     {
       "first_name": "Britta",
       "last_name": "Siegmund",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e54ee8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610cec54f_b.jpeg",
-      "waiting_time": 33
+      "waiting_time": 15
     },
     {
       "first_name": "Ulrike",
       "last_name": "Blume-Peytavi",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e5f3c0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610fc8c61_b.jpeg",
-      "waiting_time": 19
+      "waiting_time": 41
     },
     {
       "first_name": "Arun",
       "last_name": "Kumarasamy",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e5c0f8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6132af52c_b.jpeg",
-      "waiting_time": 23
+      "waiting_time": 42
     },
     {
       "first_name": "Veit",
       "last_name": "Hofmann",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 225,
-          "name": "Otorhinolaryngologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e71c00>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611117a85_b.jpeg",
-      "waiting_time": 25
+      "waiting_time": 12
     },
     {
       "first_name": "Rainer",
       "last_name": "Hambrecht",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea52e70990>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a161821_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 28
     },
     {
       "first_name": "Christian",
       "last_name": "Wülfing",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550476e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e113dda_b.jpeg",
-      "waiting_time": 10
+      "waiting_time": 29
     },
     {
       "first_name": "Gerhard",
       "last_name": "A.",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55046768>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61210a03f_b.jpeg",
-      "waiting_time": 23
+      "waiting_time": 19
     },
     {
       "first_name": "Guido",
       "last_name": "Gerken",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55044a58>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610d26966_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 22
     },
     {
       "first_name": "Anke",
       "last_name": "Reitter",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55052630>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf613200bde_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 9
     },
     {
       "first_name": "Kerstin",
       "last_name": "Lommel",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55050538>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60f329ae2_b.jpeg",
-      "waiting_time": 47
+      "waiting_time": 9
     },
     {
       "first_name": "Jurgen",
       "last_name": "Stein",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55072890>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf613293017_b.jpeg",
-      "waiting_time": 34
+      "waiting_time": 20
     },
     {
       "first_name": "Jalid",
       "last_name": "Sehouli",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550710f8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf610f936a4_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 15
     },
     {
       "first_name": "Gerd",
       "last_name": "Manthei",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5507f950>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60dacc263_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 14
     },
     {
       "first_name": "Ahmet",
       "last_name": "Elmaagacli",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5507d3a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ecec44b_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 45
     },
     {
       "first_name": "Carsten",
       "last_name": "Perka",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55093810>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61109dc59_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 3
     },
     {
       "first_name": "Andreas",
       "last_name": "Greiner",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55091718>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6111cdff4_b.jpeg",
-      "waiting_time": 21
+      "waiting_time": 28
     },
     {
       "first_name": "Hans-Peter",
       "last_name": "Lemmens",
       "address": "Hospital Havelhoehe, Berlin",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5509fe08>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e2821b0_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 47
     },
     {
       "first_name": "Ahmed",
       "last_name": "Bozkurt",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 228,
-          "name": "Plastic Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5509eb20>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6115b4ccc_b.jpeg",
-      "waiting_time": 19
+      "waiting_time": 33
     },
     {
       "first_name": "Philipp-Andreas",
       "last_name": "Hessler",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5509cc58>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6131acb69_b.jpeg",
-      "waiting_time": 32
+      "waiting_time": 46
     },
     {
       "first_name": "Hita",
       "last_name": "Tushar",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550b7418>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c724c7c_b.jpeg",
-      "waiting_time": 24
+      "waiting_time": 38
     },
     {
       "first_name": "Rene",
       "last_name": "Lorenz",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550b6248>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6102ed09b_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 19
     },
     {
       "first_name": "Wolfgang",
       "last_name": "Steinke",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550b4d30>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9e8500b_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 28
     },
     {
       "first_name": "Prof.",
       "last_name": "Stefan",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550b4010>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9c08f54_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 4
     },
     {
       "first_name": "Claudius",
       "last_name": "Teupe",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550c2c50>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6132687d4_b.jpeg",
-      "waiting_time": 20
+      "waiting_time": 35
     },
     {
       "first_name": "Ulf",
       "last_name": "Landmesser",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550c1238>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611001686_b.jpeg",
-      "waiting_time": 4
+      "waiting_time": 29
     },
     {
       "first_name": "Marcus",
       "last_name": "Blum",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550cf680>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d97e2540_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 10
     },
     {
       "first_name": "Peter",
       "last_name": "Reimer",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550ce3e8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6020d58b7_b.jpeg",
-      "waiting_time": 19
+      "waiting_time": 42
     },
     {
       "first_name": "Dr.",
       "last_name": "Marion",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550cd268>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9ab7760_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 14
     },
     {
       "first_name": "Jörg",
       "last_name": "B.",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 233,
-          "name": "Obstetrician-gynecologist"
-        },
-        {
-          "id": 246,
-          "name": "Surgical oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550cc5c0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf607af0ac8_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 24
     },
     {
       "first_name": "Antonio",
       "last_name": "Pezzutto",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550ef318>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf611076430_b.jpeg",
-      "waiting_time": 41
+      "waiting_time": 44
     },
     {
       "first_name": "Karl-Heinz",
       "last_name": "Frosch",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550ee0a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ee49880_b.jpeg",
-      "waiting_time": 7
+      "waiting_time": 44
     },
     {
       "first_name": "Konrad",
       "last_name": "Stubbig",
       "address": "Sachsenhausen Hospital, Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550ecaf0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61332a154_b.jpeg",
-      "waiting_time": 24
+      "waiting_time": 48
     },
     {
       "first_name": "Prof.",
       "last_name": "Uwe",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 220,
-          "name": "Pulmonologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550e2ed8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9cef04d_b.jpeg",
-      "waiting_time": 31
+      "waiting_time": 10
     },
     {
       "first_name": "Engin",
       "last_name": "Osmanoglou",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550e1a38>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d818d508_b.jpeg",
-      "waiting_time": 46
+      "waiting_time": 17
     },
     {
       "first_name": "Yorg",
       "last_name": "Herdmann",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea550e0a98>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9e548a0_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 19
     },
     {
       "first_name": "Aristoteles",
       "last_name": "Giagonidis",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55107918>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9e29fd1_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 37
     },
     {
       "first_name": "Dr.",
       "last_name": "Linda",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 235,
-          "name": "Endocrinologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55106bd0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9a8a998_b.jpeg",
-      "waiting_time": 32
+      "waiting_time": 21
     },
     {
       "first_name": "Holger",
       "last_name": "Maul",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55104c68>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d91792bf_b.jpeg",
-      "waiting_time": 37
+      "waiting_time": 10
     },
     {
       "first_name": "Detlef",
       "last_name": "Rose",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551041f0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c7e7b15_b.jpeg",
-      "waiting_time": 42
+      "waiting_time": 43
     },
     {
       "first_name": "Wolfgang",
       "last_name": "Nebelung",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5510b838>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9eec2c3_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 18
     },
     {
       "first_name": "Lothar",
       "last_name": "Shveygerer",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        },
-        {
-          "id": 242,
-          "name": "Pediatric Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5510a910>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6027d2b7e_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 47
     },
     {
       "first_name": "Rolf",
       "last_name": "Michael",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55109128>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9ebd86e_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 23
     },
     {
       "first_name": "Prof.",
       "last_name": "Heiko",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5511bb20>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9c6e668_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 45
     },
     {
       "first_name": "Miklos",
       "last_name": "Hamori",
       "address": "Erlangen",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5511add8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf613c40b26_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 26
     },
     {
       "first_name": "Robert",
       "last_name": "Krempien",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55119e10>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b30c369bebb6_b.jpeg",
-      "waiting_time": 13
+      "waiting_time": 40
     },
     {
       "first_name": "Oliver",
       "last_name": "Heese",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55118a88>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf604e8e5ad_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 32
     },
     {
       "first_name": "Dr.",
       "last_name": "Simon",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5512bac0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9c36182_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 8
     },
     {
       "first_name": "Dr.",
       "last_name": "Reinhard",
       "address": "Munich",
-      "specialties": [
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5512afa8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6d9af368f_b.jpeg",
-      "waiting_time": 38
+      "waiting_time": 29
     },
     {
       "first_name": "Martin",
       "last_name": "Hoffmeister",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 215,
-          "name": "Therapist"
-        },
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5512a440>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60230d498_b.jpeg",
-      "waiting_time": 20
+      "waiting_time": 39
     },
     {
       "first_name": "Wolfgang",
       "last_name": "Hiller",
       "address": "Detmold",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 252,
-          "name": "Hand Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551299a0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5afec723c6c41_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 20
     },
     {
       "first_name": "Frank",
       "last_name": "Hartmann",
       "address": "Lemgo",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55128c30>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b03e3df57ed9_b.jpeg",
-      "waiting_time": 37
+      "waiting_time": 17
     },
     {
       "first_name": "Mahdi",
       "last_name": "Rezai",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 228,
-          "name": "Plastic Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55128190>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf607f82ad8_b.jpeg",
-      "waiting_time": 22
+      "waiting_time": 10
     },
     {
       "first_name": "Christian",
       "last_name": "Molleken",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        },
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551329d8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b7ad25664626_b.jpeg",
-      "waiting_time": 46
+      "waiting_time": 30
     },
     {
       "first_name": "Silke",
       "last_name": "Tribius",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55130ea8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b30c84ece7ea_b.jpeg",
-      "waiting_time": 13
+      "waiting_time": 38
     },
     {
       "first_name": "Thomas",
       "last_name": "W",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 236,
-          "name": "Bariatric Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513fa20>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60471b075_b.jpeg",
-      "waiting_time": 46
+      "waiting_time": 14
     },
     {
       "first_name": "Stephan",
       "last_name": "Gielen",
       "address": "Detmold",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513f070>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5afecb52a918f_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 10
     },
     {
       "first_name": "Andreas",
       "last_name": "Tandler-Schneider",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513e4b8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b4c3e37ab09a_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 12
     },
     {
       "first_name": "Marek",
       "last_name": "Budner",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513da40>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf603a854f6_b.jpeg",
-      "waiting_time": 45
+      "waiting_time": 36
     },
     {
       "first_name": "Geza",
       "last_name": "Pap",
       "address": "Leipzig",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513cd20>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b50a5d3e4b8c_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 16
     },
     {
       "first_name": "Cyrus",
       "last_name": "Klostermann",
       "address": "Detmold",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5513c078>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5afecc8bbed6f_b.jpeg",
-      "waiting_time": 45
+      "waiting_time": 30
     },
     {
       "first_name": "Michael",
       "last_name": "Truss",
       "address": "Dortmund",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5514b208>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf603dc92aa_b.jpeg",
-      "waiting_time": 38
+      "waiting_time": 36
     },
     {
       "first_name": "Ulrich",
       "last_name": "Schäfer",
       "address": "Lemgo",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55149cc8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b03e4cfa8ede_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 46
     },
     {
       "first_name": "Stefan",
       "last_name": "Dresel",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 230,
-          "name": "Clinical oncologist"
-        },
-        {
-          "id": 253,
-          "name": "Radiation oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55148fa8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b2cffe532f01_b.jpeg",
-      "waiting_time": 36
+      "waiting_time": 9
     },
     {
       "first_name": "Ulrich",
       "last_name": "Halm",
       "address": "Leipzig",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55148418>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b50a69e037ae_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 39
     },
     {
       "first_name": "Heiner",
       "last_name": "Wenk",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55153778>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b87aa13e07ad_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 44
     },
     {
       "first_name": "Stefanie",
       "last_name": "Veit",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 254,
-          "name": "Thoracic surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55152990>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b51bfec51766_b.jpeg",
-      "waiting_time": 7
+      "waiting_time": 2
     },
     {
       "first_name": "Ludger",
       "last_name": "Wilhelm",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 251,
-          "name": "Check Up Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551513d8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b7ad326659b6_b.jpeg",
-      "waiting_time": 7
+      "waiting_time": 28
     },
     {
       "first_name": "Heribert",
       "last_name": "Kentenich",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55150488>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b504cdb1315a_b.jpeg",
-      "waiting_time": 23
+      "waiting_time": 19
     },
     {
       "first_name": "Wladimir",
       "last_name": "Pauker",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5515f7a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b87a931c1e40_b.jpeg",
-      "waiting_time": 15
+      "waiting_time": 6
     },
     {
       "first_name": "Martin",
       "last_name": "Peters",
       "address": "Medical Center in Solingen, Solingen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5515e420>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf604d00615_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 8
     },
     {
       "first_name": "Michael",
       "last_name": "van",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5515d6b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b9bb261e888b_b.jpeg",
-      "waiting_time": 5
+      "waiting_time": 41
     },
     {
       "first_name": "Joachim",
       "last_name": "Klisch",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 255,
-          "name": "Diagnostician"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55173ac8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf604eac084_b.jpeg",
-      "waiting_time": 26
+      "waiting_time": 33
     },
     {
       "first_name": "Dennis",
       "last_name": "Prokofiev",
       "address": "Dortmund",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55172178>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf604908395_b.jpeg",
-      "waiting_time": 24
+      "waiting_time": 5
     },
     {
       "first_name": "Clayton",
       "last_name": "Kraft",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        },
-        {
-          "id": 229,
-          "name": "Orthopedic surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55170530>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5ca329045015e_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 48
     },
     {
       "first_name": "Elke",
       "last_name": "Jaeger",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55186240>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf607215990_b.jpeg",
-      "waiting_time": 32
+      "waiting_time": 13
     },
     {
       "first_name": "Eduard",
       "last_name": "Becht",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55193eb8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60710c462_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 47
     },
     {
       "first_name": "Karl",
       "last_name": "J.",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55192928>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6062352fc_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 13
     },
     {
       "first_name": "Christoph",
       "last_name": "Rangger",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55190f38>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6071b461c_b.jpeg",
-      "waiting_time": 23
+      "waiting_time": 38
     },
     {
       "first_name": "Max",
       "last_name": "Zegelman",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 248,
-          "name": "Cardiac Surgeon"
-        },
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55197dd8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6073f2dd3_b.jpeg",
-      "waiting_time": 31
+      "waiting_time": 48
     },
     {
       "first_name": "Dirk",
       "last_name": "Schadendorf",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 227,
-          "name": "Aesthetic Specialist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55196bb8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf607ceba79_b.jpeg",
-      "waiting_time": 17
+      "waiting_time": 34
     },
     {
       "first_name": "Jorn",
       "last_name": "Jorgensen",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55195628>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5bb367241d0b5_b.jpeg",
-      "waiting_time": 23
+      "waiting_time": 21
     },
     {
       "first_name": "Bertram",
       "last_name": "Glaß",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 226,
-          "name": "Hematologist"
-        },
-        {
-          "id": 230,
-          "name": "Clinical oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55194318>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c62ec01bf564_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 3
     },
     {
       "first_name": "Anne-Sophie",
       "last_name": "Vesper",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5519acb8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6057a8ec6_b.jpeg",
-      "waiting_time": 43
+      "waiting_time": 30
     },
     {
       "first_name": "Michael",
       "last_name": "Bartels",
       "address": "Leipzig",
-      "specialties": [
-        {
-          "id": 218,
-          "name": "Transplant surgeon"
-        },
-        {
-          "id": 244,
-          "name": "General surgeon"
-        },
-        {
-          "id": 246,
-          "name": "Surgical oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551998e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c62f190ef0de_b.jpeg",
-      "waiting_time": 48
+      "waiting_time": 6
     },
     {
       "first_name": "Martin",
       "last_name": "Strik",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 246,
-          "name": "Surgical oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551a6310>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c62f152967bf_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 35
     },
     {
       "first_name": "Niklas",
       "last_name": "Kreutzer",
       "address": "Dortmund",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551b37b8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6048d12f4_b.jpeg",
-      "waiting_time": 14
+      "waiting_time": 18
     },
     {
       "first_name": "Eckhart",
       "last_name": "Weidmann",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551b1a30>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6071de212_b.jpeg",
-      "waiting_time": 32
+      "waiting_time": 4
     },
     {
       "first_name": "Jurgen",
       "last_name": "Hoffmann",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551dbe98>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60577d0f8_b.jpeg",
-      "waiting_time": 29
+      "waiting_time": 3
     },
     {
       "first_name": "Uwe",
       "last_name": "Kehler",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551bb850>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c5d4e2d_b.jpeg",
-      "waiting_time": 29
+      "waiting_time": 37
     },
     {
       "first_name": "Thomas",
       "last_name": "Kaleta",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551bd768>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6057e5261_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 43
     },
     {
       "first_name": "Johann",
       "last_name": "Pratschke",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 221,
-          "name": "Surgeon"
-        },
-        {
-          "id": 224,
-          "name": "Transplantologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551c2920>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60966234c_b.jpeg",
-      "waiting_time": 20
+      "waiting_time": 47
     },
     {
       "first_name": "Christoph",
       "last_name": "Kleinschnitz",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551c0878>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf606329f4f_b.jpeg",
-      "waiting_time": 41
+      "waiting_time": 30
     },
     {
       "first_name": "Georg",
       "last_name": "Hagemann",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552076b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c62f0bce4535_b.jpeg",
-      "waiting_time": 10
+      "waiting_time": 22
     },
     {
       "first_name": "Siegbert",
       "last_name": "Rossol",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 213,
-          "name": "Gastroenterologist"
-        },
-        {
-          "id": 256,
-          "name": "Infectionist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552058b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6073b8995_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 18
     },
     {
       "first_name": "Stephan",
       "last_name": "Kissler",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55217bf0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6073244ff_b.jpeg",
-      "waiting_time": 47
+      "waiting_time": 29
     },
     {
       "first_name": "Torsten",
       "last_name": "Gehrke",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55215ee0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6099580d6_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 17
     },
     {
       "first_name": "Bernd",
       "last_name": "Hertenstein",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551e7400>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60826d21b_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 3
     },
     {
       "first_name": "Ruud",
       "last_name": "Gerlofs",
       "address": "Zentrum der Rehabilitation Pforzheim, Pforzheim",
-      "specialties": [
-        {
-          "id": 257,
-          "name": "Rehabilitation Therapist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551f6180>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf606c5ac33_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 11
     },
     {
       "first_name": "Thomas",
       "last_name": "Haarmeier",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        },
-        {
-          "id": 258,
-          "name": "Epileptologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea551f4768>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c651b383907c_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 3
     },
     {
       "first_name": "Johann",
       "last_name": "Pichl",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55252980>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6099ee6e1_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 35
     },
     {
       "first_name": "Gerhart",
       "last_name": "Tseslinsky",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        },
-        {
-          "id": 257,
-          "name": "Rehabilitation Therapist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55267ab0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf6074802b4_b.jpeg",
-      "waiting_time": 14
+      "waiting_time": 35
     },
     {
       "first_name": "Yu-Mi",
       "last_name": "Ryang",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55266138>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5cb5d79b2c4d0_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 38
     },
     {
       "first_name": "Daniela",
       "last_name": "Dorshner-Gerlofs",
       "address": "Zentrum der Rehabilitation Pforzheim, Pforzheim",
-      "specialties": [
-        {
-          "id": 257,
-          "name": "Rehabilitation Therapist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5523c590>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf606b82590_b.jpeg",
-      "waiting_time": 39
+      "waiting_time": 37
     },
     {
       "first_name": "Marco",
       "last_name": "Dorshner",
       "address": "Zentrum der Rehabilitation Pforzheim, Pforzheim",
-      "specialties": [
-        {
-          "id": 257,
-          "name": "Rehabilitation Therapist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552431b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf606b3e143_b.jpeg",
-      "waiting_time": 45
+      "waiting_time": 11
     },
     {
       "first_name": "Paul",
       "last_name": "Kremer",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5527d270>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5cf13add50632_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 36
     },
     {
       "first_name": "Andreas",
       "last_name": "Kastrup",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552925d0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5c62f08d7b3ea_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 38
     },
     {
       "first_name": "Ralf",
       "last_name": "Kolvenbach",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552902a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5cbb3f67e4d93_b.jpeg",
-      "waiting_time": 3
+      "waiting_time": 44
     },
     {
       "first_name": "Dietrich",
       "last_name": "W.",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5529eb50>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60a0901b9_b.jpeg",
-      "waiting_time": 22
+      "waiting_time": 4
     },
     {
       "first_name": "Theodoros",
       "last_name": "Kombos",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5529db60>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d021aef19dec_b.jpeg",
-      "waiting_time": 22
+      "waiting_time": 25
     },
     {
       "first_name": "Ulrich",
       "last_name": "Böhling",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5529c8f0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d021bfeabef2_b.jpeg",
-      "waiting_time": 9
+      "waiting_time": 10
     },
     {
       "first_name": "Martin",
       "last_name": "Friedrich",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 219,
-          "name": "Urological surgeon"
-        },
-        {
-          "id": 259,
-          "name": "Pediatric urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552b6b60>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d27399ab4a09_b.jpeg",
-      "waiting_time": 13
+      "waiting_time": 33
     },
     {
       "first_name": "Rudolf",
       "last_name": "Leuwer",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 225,
-          "name": "Otorhinolaryngologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552b5cb0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d322a1b2dea5_b.jpeg",
-      "waiting_time": 40
+      "waiting_time": 30
     },
     {
       "first_name": "Ulrih",
       "last_name": "Bitz",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552b4d88>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5b2100f84805a_b.jpeg",
-      "waiting_time": 12
+      "waiting_time": 42
     },
     {
       "first_name": "Sergej",
       "last_name": "Leontyev",
       "address": "Leipzig",
-      "specialties": [
-        {
-          "id": 260,
-          "name": "Interventional cardiologist"
-        },
-        {
-          "id": 261,
-          "name": "Cardiothoracic surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552bbd18>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d3b6280426d7_b.jpeg",
-      "waiting_time": 21
+      "waiting_time": 20
     },
     {
       "first_name": "Markus",
       "last_name": "Kufeld",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 210,
-          "name": "Neurosurgeon"
-        },
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552bac10>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c607f82_b.jpeg",
-      "waiting_time": 45
+      "waiting_time": 33
     },
     {
       "first_name": "Jörn",
       "last_name": "Küchelbecker",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 242,
-          "name": "Pediatric Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552b9a40>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c126115_b.jpeg",
-      "waiting_time": 14
+      "waiting_time": 8
     },
     {
       "first_name": "Ulrich",
       "last_name": "Keilholz",
       "address": "Charité - Universitätsmedizin Berlin, Berlin",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        },
-        {
-          "id": 237,
-          "name": "Onco-Hematologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552b87f8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60e97c5f7_b.jpeg",
-      "waiting_time": 21
+      "waiting_time": 24
     },
     {
       "first_name": "Matthias",
       "last_name": "W.",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d7a68>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c013ff5_b.jpeg",
-      "waiting_time": 16
+      "waiting_time": 32
     },
     {
       "first_name": "Jan",
       "last_name": "Korde",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d6b18>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60ca0178e_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 26
     },
     {
       "first_name": "Juergen",
       "last_name": "Faiss",
       "address": "Hamburg",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d5b78>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c2c776e_b.jpeg",
-      "waiting_time": 42
+      "waiting_time": 11
     },
     {
       "first_name": "Ursula",
       "last_name": "Makowiec",
       "address": "Berlin",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d4020>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d021e0264883_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 13
     },
     {
       "first_name": "Gerd",
       "last_name": "Degoutrie",
       "address": "Duisburg",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        },
-        {
-          "id": 262,
-          "name": "Mammologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552dadd0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d5e49daed082_b.jpeg",
-      "waiting_time": 2
+      "waiting_time": 43
     },
     {
       "first_name": "Christian",
       "last_name": "Jacobi",
       "address": "Frankfurt am Main",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d90e8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c052bb7_b.jpeg",
-      "waiting_time": 35
+      "waiting_time": 21
     },
     {
       "first_name": "Gabor",
       "last_name": "Gäbel",
       "address": "Krefeld",
-      "specialties": [
-        {
-          "id": 250,
-          "name": "Phlebologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552d8148>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5cf5117879cbd_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 24
     },
     {
       "first_name": "Jan",
       "last_name": "Fichtner",
       "address": "Duisburg",
-      "specialties": [
-        {
-          "id": 223,
-          "name": "Urologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552f2e80>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d5e4a9b4b0bd_b.jpeg",
-      "waiting_time": 21
+      "waiting_time": 23
     },
     {
       "first_name": "Erik",
       "last_name": "Chankiewitz",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552f1da0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c9b272d_b.jpeg",
-      "waiting_time": 44
+      "waiting_time": 6
     },
     {
       "first_name": "Krystyna",
       "last_name": "Wisniewski",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 232,
-          "name": "Ophthalmologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea552f0248>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60c9cd83c_b.jpeg",
-      "waiting_time": 46
+      "waiting_time": 10
     },
     {
       "first_name": "Dirk",
       "last_name": "Pajonk",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5530f5a8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d6e0ec816455_b.jpeg",
-      "waiting_time": 8
+      "waiting_time": 43
     },
     {
       "first_name": "Jorg",
       "last_name": "Handschel",
       "address": "Duisburg",
-      "specialties": [
-        {
-          "id": 263,
-          "name": "Maxillofacial Surgeon"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5530df28>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d5e4bfa6d13a_b.jpeg",
-      "waiting_time": 27
+      "waiting_time": 14
     },
     {
       "first_name": "Uve",
       "last_name": "Niksdoff",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 239,
-          "name": "Cardiologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5530d4b0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d6e0e1da9989_b.jpeg",
-      "waiting_time": 41
+      "waiting_time": 48
     },
     {
       "first_name": "Martin",
       "last_name": "Stuschke",
       "address": "Essen",
-      "specialties": [
-        {
-          "id": 212,
-          "name": "Oncologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5530c920>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf60f0f4066_b.jpeg",
-      "waiting_time": 18
+      "waiting_time": 7
     },
     {
       "first_name": "Garald",
       "last_name": "Krentel",
       "address": "Duisburg",
-      "specialties": [
-        {
-          "id": 214,
-          "name": "Obstetrician-Gynecologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5531a8e0>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d5e6306216c3_b.jpeg",
-      "waiting_time": 11
+      "waiting_time": 34
     },
     {
       "first_name": "Takahiro",
       "last_name": "Moriyama",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 240,
-          "name": "Immunologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55319530>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d6e1d6d59049_b.jpeg",
-      "waiting_time": 30
+      "waiting_time": 32
     },
     {
       "first_name": "Birgit",
       "last_name": "Kauffmann",
       "address": "Bremen",
-      "specialties": [
-        {
-          "id": 216,
-          "name": "Neurologist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea55318248>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5dd2b58a176ef_b.jpeg",
-      "waiting_time": 28
+      "waiting_time": 31
     },
     {
       "first_name": "Stephan",
       "last_name": "W.",
       "address": "Helios Berlin Buch, Berlin",
-      "specialties": [
-        {
-          "id": 217,
-          "name": "Orthopedist"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5531e788>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5acf61091b2f9_b.jpeg",
-      "waiting_time": 17
+      "waiting_time": 10
     },
     {
       "first_name": "Saskia",
       "last_name": "Biskup",
       "address": "Dusseldorf",
-      "specialties": [
-        {
-          "id": 255,
-          "name": "Diagnostician"
-        }
-      ],
+      "specialties": "#<Specialty::ActiveRecord_Associations_CollectionProxy:0x000055ea5531d8d8>",
       "picture_url": "https://s3.eu-central-1.amazonaws.com/bookimed/doctor/5d6e1e35b929a_b.jpeg",
       "waiting_time": 38
     }
   ],
   "specialties": [
+    {
+      "name": "Immunologist"
+    },
+    {
+      "name": "Rheumatologist"
+    },
+    {
+      "name": "Pediatric Oncologist"
+    },
+    {
+      "name": "Gastrointestinal surgeon"
+    },
+    {
+      "name": "General surgeon"
+    },
+    {
+      "name": "Pediatrician"
+    },
+    {
+      "name": "Surgical oncologist"
+    },
+    {
+      "name": "Nephrologist"
+    },
+    {
+      "name": "Cardiac Surgeon"
+    },
+    {
+      "name": "Pediatric Cardiac Surgeon"
+    },
+    {
+      "name": "Phlebologist"
+    },
+    {
+      "name": "Check Up Specialist"
+    },
+    {
+      "name": "Hand Surgeon"
+    },
+    {
+      "name": "Radiation oncologist"
+    },
+    {
+      "name": "Thoracic surgeon"
+    },
+    {
+      "name": "Diagnostician"
+    },
+    {
+      "name": "Infectionist"
+    },
+    {
+      "name": "Rehabilitation Therapist"
+    },
+    {
+      "name": "Epileptologist"
+    },
+    {
+      "name": "Pediatric urologist"
+    },
+    {
+      "name": "Interventional cardiologist"
+    },
+    {
+      "name": "Cardiothoracic surgeon"
+    },
+    {
+      "name": "Mammologist"
+    },
+    {
+      "name": "Maxillofacial Surgeon"
+    },
     {
       "name": "Neurosurgeon"
     },
@@ -3679,78 +2083,6 @@
     },
     {
       "name": "Cardiologist"
-    },
-    {
-      "name": "Immunologist"
-    },
-    {
-      "name": "Rheumatologist"
-    },
-    {
-      "name": "Pediatric Oncologist"
-    },
-    {
-      "name": "Gastrointestinal surgeon"
-    },
-    {
-      "name": "General surgeon"
-    },
-    {
-      "name": "Pediatrician"
-    },
-    {
-      "name": "Surgical oncologist"
-    },
-    {
-      "name": "Nephrologist"
-    },
-    {
-      "name": "Cardiac Surgeon"
-    },
-    {
-      "name": "Pediatric Cardiac Surgeon"
-    },
-    {
-      "name": "Phlebologist"
-    },
-    {
-      "name": "Check Up Specialist"
-    },
-    {
-      "name": "Hand Surgeon"
-    },
-    {
-      "name": "Radiation oncologist"
-    },
-    {
-      "name": "Thoracic surgeon"
-    },
-    {
-      "name": "Diagnostician"
-    },
-    {
-      "name": "Infectionist"
-    },
-    {
-      "name": "Rehabilitation Therapist"
-    },
-    {
-      "name": "Epileptologist"
-    },
-    {
-      "name": "Pediatric urologist"
-    },
-    {
-      "name": "Interventional cardiologist"
-    },
-    {
-      "name": "Cardiothoracic surgeon"
-    },
-    {
-      "name": "Mammologist"
-    },
-    {
-      "name": "Maxillofacial Surgeon"
     }
   ]
 }
