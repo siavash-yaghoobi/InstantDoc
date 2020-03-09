@@ -2,8 +2,7 @@ class Appointment < ApplicationRecord
   belongs_to :doctor
   belongs_to :user, optional: true
   has_many :notifications, dependent: :destroy
-  after_create_commit :create_notifications
-
+  after_create :create_notifications
 
   private
 
