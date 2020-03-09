@@ -1,12 +1,23 @@
-.btn-primary {
-  background-color: #F3AE3B;
+.btn-yellow {
+  background-color: #F5BC5F;
   width: 100%;
+  height: 36px;
   color: #006565;
   border: none;
+  border-radius: 40px;
+  box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+.btn-yellow:hover {
+  color: #006565;
+  background-color: white;
+  border: 1px solid #006565;
+}
+
+
 .btn-ter {
-  background-color: #F3AE3B;
+  background-color: #F5BC5F;
   width: 100%;
   color: #006565;
   border: none;

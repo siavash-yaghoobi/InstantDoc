@@ -8,15 +8,23 @@
 }
 
 #landing-page {
-  background-color: #BAE8E8;
+  background-color: white;
 }
 
 .title {
-  padding-top: 80px;
-  text-align: left;
-  color: #006565;
+  color: white;
+  font-size: 36px;
+  line-height: 50px;
+  max-width: 300px;
 }
 
+
+.title-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: left;
+}
 
 .flex-search {
   text-align: center;
@@ -25,15 +33,28 @@
 .search-form-control {
   width: 80%;
   display: inline-block;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .form-control {
   margin-bottom: 10px;
+  box-shadow: 0 4px 13px 0 rgba(0,0,0,.13);
+  border: none;
+  background-clip: padding-box;
 }
 
 .banner {
-  background-image: url('bg.svg');
+  background-image: url('bgdark.png');
   background-size: cover;
   background-position: center;
+  width: max-content;
+}
+
+.distance-wrapper {
+  text-align: left;
+  color: #006565;
+}
+
+.target {
+  color: #006565;
 }
