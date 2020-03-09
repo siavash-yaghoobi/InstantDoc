@@ -1,26 +1,28 @@
 <div class="banner">
   <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <div class="landing-search">
-          <div class="flex-search">
-            <h2 class="title">Secure doctor appointments today</h2>
-            <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
-                <%= select_tag "specialties", options_from_collection_for_select(
-                @specialties.all,
-                :id, :name),
-                class: 'form-control', required: true %>
-                <%= text_field_tag :location,
-                  params[:location], as: :string,
-                  placeholder: 'Enter a city',
-                  class: 'form-control',
-                  id: 'address-input',
-                  required: true %>
-                <%= number_field(:radius, :radius, placeholder: 'Radius', in: 0..150, step: 5, class: 'form-control') %>
-                <%= submit_tag "Submit", class: "btn btn-primary mt-3" %>
-            <% end %>
-          </div>
+    <div class="landing-search">
+      <div class="flex-search">
+        <div class="title-wrapper">
+          <h1 class="title">Secure doctor appointments today</h1>
         </div>
+        <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
+            <%= select_tag "specialties", options_from_collection_for_select(
+            @specialties.all,
+            :id, :name),
+            class: 'form-control', required: true %>
+            <%= text_field_tag :location,
+              params[:location], as: :string,
+              placeholder: 'Enter location (address, city, etc)',
+              class: 'form-control',
+              id: 'address-input',
+              required: true %>
+            <div class="distance-wrapper"><p>Distance from location: </p></div>
+            <%= range_field_tag(:radius, :radius, in: 0..150, step: 5, class: 'form-control') %>
+            <div class="rd-wrapper">
+              <div class="target">5 </div><span> km</span>
+            </div>
+            <%= submit_tag "Search", class: "btn-yellow mt-3" %>
+        <% end %>
       </div>
     </div>
   </div>

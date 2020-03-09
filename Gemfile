@@ -10,6 +10,8 @@ gem 'rails', '5.2.4.1'
 gem 'redis'
 gem "pundit"
 gem 'twilio-ruby', '~> 5.31.6'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
