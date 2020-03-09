@@ -13,6 +13,7 @@
 
 .title {
   color: white;
+  font-weight: bolder;
   font-size: 36px;
   line-height: 50px;
   max-width: 300px;
@@ -32,22 +33,20 @@
 
 .search-form-control {
   width: 80%;
-  display: inline-block;
-  padding-top: 20px;
+  margin: 0 auto;
+  display: block;
+
+  #address-input, #specialties {
+    height: 60px;
+    margin: 15px 0;
+  }
 }
 
-.form-control {
-  margin-bottom: 10px;
-  box-shadow: 0 4px 13px 0 rgba(0,0,0,.13);
-  border: none;
-  background-clip: padding-box;
-}
 
 .banner {
-  background-image: url('bgdark.png');
+  background-image: asset-url('newbg.svg');
   background-size: cover;
   background-position: center;
-  width: max-content;
 }
 
 .distance-wrapper {
