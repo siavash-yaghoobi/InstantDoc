@@ -7,6 +7,8 @@
 
 #general-page {
   background-color: #006565;
+  height: 60px;
+  padding: 10px;
 }
 
 .avatar {
@@ -56,14 +58,14 @@
 
 #toggle-map.show-map-text > .span-map {
   display: inherit;
-  color: #F5BC5F;
-  padding-left: 10px;
+  color: #FEFDFD;
+  padding-left: 5px;
 }
 
 #toggle-map.show-list-text > .span-list {
   display: inherit;
-  color: #F5BC5F;
-  padding-left: 10px;
+  color: #FEFDFD;
+  padding-left: 5px;
 }
 
 .dropdown-item {
