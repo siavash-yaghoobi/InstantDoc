@@ -1,19 +1,35 @@
-<div class="container">
+<div class="container" id="notif-show">
   <div class="appointment-pop">
-    <h2>You've got an appointment!</h2>
-    <%= @notification.appointment.start_at.strftime("%A, %-d. %B") %>
-    <br>
-    <%= @notification.appointment.start_at.strftime("%H:%M") %>
+    <h4 id="pop-title">You've got an appointment!</h4>
+    <div class="pop-schedule">
+      <i class="far fa-calendar"></i> <%= @notification.appointment.start_at.strftime("%A, %B %-d ") %>
+      <br>
+      <i class="far fa-clock"></i> <%= @notification.appointment.start_at.strftime("%H:%M") %>
+    </div>
   </div>
-  <div class="card-doc" id="notif-show">
+  <div class="doc-pop">
+    <h4 id="ter-title">Your doctor:</h4>
+    <div class="card-doc" id="notif-doc-card">
+      <img id="doc-image"src=<%= @notification.appointment.doctor.picture_url%> alt="A doctor">
+      <div class="card-doc-info">
+        <p id="notif-doc-info">Dr <%= @notification.appointment.doctor.first_name %> <%= @notification.appointment.doctor.last_name %></p>
+        <p id="notif-doc-info"><%= @notification.appointment.doctor.address%> </p>
+      </div>
+    </div>
   </div>
-  <div class="confirm-buttons">
-    <%= button_to "Confirm", notification_path(@notification),
-                             method: :patch,
-                             params: { notification: { status: "confirmed" }} %>
+  <div class="confirm-pop">
+    <h4 id="ter-title">Will you book this appointment?</h4>
+    <%= @timer %>
+    <div class="confirm-buttons">
+      <%= button_to "Confirm", notification_path(@notification),
+                               method: :patch,
+                               params: { notification: { status: "confirmed" }},
+                               :class => 'btn-yellow' %>
 
-    <%= button_to "Decline", notification_path(@notification),
-                             method: :patch,
-                             params: { notification: { status: "declined" }} %>
+      <%= button_to "Decline", notification_path(@notification),
+                               method: :patch,
+                               params: { notification: { status: "declined" }},
+                               :class => 'cancel-green' %>
+    </div>
   </div>
 </div>
