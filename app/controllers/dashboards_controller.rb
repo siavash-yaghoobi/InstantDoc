@@ -18,6 +18,9 @@ class DashboardsController < ApplicationController
   end
 
   def my_appointments_destroy
-    raise
+    appointment = Appointment.find(params[:id])
+    authorize(appointment)
+    appointment.destroy
+    redirect_to my_appointments_path
   end
 end

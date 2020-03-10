@@ -1,5 +1,6 @@
 class NotificationsController < ApplicationController
   def show
+    @dashboard_navbar = true
     @notification = Notification.find(params[:id])
     authorize(@notification)
   end
