@@ -1,6 +1,6 @@
 <div class="container" id="appointment">
   <div id="doctor-list">
-    <% current_user.appointments.each do |appointment| %>
+    <% current_user.appointments.order(start_at: :ASC).each do |appointment| %>
       <div class="card-doc">
         <div class="header-card">Schedule: <%= appointment.start_at %></div>
         <div class="flex-card">
