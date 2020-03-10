@@ -29,11 +29,36 @@
   color: #006565;
   border: none;
   border-radius: 30px;
-  box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.3);
+  // box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn-ter-small {
+  background-color: rgba(255, 0, 0, 0.1);
+  width: 30%;
+  color: #006565;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 .btn-del {
   border-top: solid 1px #BAE8E8;
   background-color: white;
   width: 100%;
+}
+
+.btn-white {
+  color: #006565;
+  background-color: white;
+  border: 1px solid #006565;
+  padding:5px;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.ap-dataset-places {
+  text-align: left !important;
 }
