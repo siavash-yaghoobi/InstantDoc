@@ -1,21 +1,18 @@
-
-  <!-- <h2 class="blue-bar" id="welcome-bar">My searches</h2> -->
-  <div id="search-list">
-    <p class="idx-instruction">You will get notified by SMS as soon as your doctor is available</p>
-    <div class="container" id="search notif-show">
-    <h2 style="font-size: 20px;  font-weight: bold">My Queue:</h2>
-    <% current_user.searches.each do |search| %>
-      <div class="card-doc" id="search">
-        <div><%= search.specialty.name %> near to <%= search.location %></div>
-        <div class="flex-card" id="flex-search">
-          <div class="card-doc-info">
-            <p>Within <%= search.radius != 0 ? search.radius : "5" %> km <%#= search.location != "" ? search.location : "your current location" %></p>
-          </div>
-          <div style="display: flex; inline;">
-            <%= link_to "No longer notify me", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat" %>
-          </div>
+<!-- <h2 class="blue-bar" id="welcome-bar">My searches</h2> -->
+<p class="idx-instruction"><i class="fas fa-info-circle"></i> You will get notified by SMS as soon as your doctor is available</p>
+<div class="container-search" id="search notif-show">
+  <h2 style="font-size: 20px;  font-weight: bold; color: #006565">My Queue:</h2>
+  <% current_user.searches.each do |search| %>
+    <div class="card-doc" id="search">
+      <div style="font-weight: bold"><%= search.specialty.name %> near <%= search.location %></div>
+      <!-- <div class="flex-card" id="flex-search"> -->
+        <div class="card-doc-info p-0">
+          <p><i class="fas fa-map-marked-alt"></i> Within <%= search.radius != 0 ? search.radius : "5" %> km <%#= search.location != "" ? search.location : "your current location" %></p>
         </div>
-      </div>
-    <% end %>
-  </div>
+        <div class="text-right">
+          <%= link_to "Cancel", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat btn-ter-small" %>
+        </div>
+      <!-- </div> -->
+    </div>
+  <% end %>
 </div>
