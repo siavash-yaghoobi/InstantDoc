@@ -1,6 +1,6 @@
 <div class="container" id="notif-show">
   <div class="appointment-pop">
-    <h4 id="pop-title">You've got an appointment!</h4>
+    <h4 id="pop-title">We've got you an available slot!</h4>
     <div class="pop-schedule">
       <i class="far fa-calendar"></i> <%= @notification.appointment.start_at.strftime("%A, %B %-d ") %>
       <br>
@@ -19,7 +19,7 @@
   </div>
   <div class="confirm-pop">
     <h4 id="ter-title">Will you book this appointment?</h4>
-    <%= @timer %>
+    <h1 id="notif-timer"></h1>
     <div class="confirm-buttons">
       <%= button_to "Confirm", notification_path(@notification),
                                method: :patch,
@@ -29,7 +29,7 @@
       <%= button_to "Decline", notification_path(@notification),
                                method: :patch,
                                params: { notification: { status: "declined" }},
-                               :class => 'cancel-green' %>
+                               :class => 'cancel-green mt-3' %>
     </div>
   </div>
 </div>

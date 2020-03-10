@@ -2,7 +2,10 @@
   <div id="doctor-list">
     <% current_user.appointments.order(start_at: :ASC).each do |appointment| %>
       <div class="card-doc">
-        <div class="header-card">Schedule: <%= appointment.start_at.strftime("%A, %-d. %B %H:%M") %></div>
+        <div class="header-card">
+          <i class="far fa-calendar"></i> <%= appointment.start_at.strftime("%A, %B %-d") %>
+          <i class="far fa-clock"></i> <%= appointment.start_at.strftime("%H:%M") %>
+        </div>
         <div class="flex-card">
           <img id="doc-image"src=<%=appointment.doctor.picture_url%> alt="A doctor">
           <div class="card-doc-info">

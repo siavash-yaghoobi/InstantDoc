@@ -3,7 +3,6 @@ class NotificationsController < ApplicationController
     @dashboard_navbar = true
     @notification = Notification.find(params[:id])
     authorize(@notification)
-    @timer = @notification.appointment.timer_start
   end
 
   def update

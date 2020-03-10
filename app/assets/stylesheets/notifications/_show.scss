@@ -10,26 +10,34 @@
 }
 
 .confirm-pop {
-  padding: 6px;
+  padding: 12px;
+  text-align: center;
 }
 
 #pop-title {
   text-align: center;
-  font-size: 26px !important;
+  font-size: 28px !important;
   font-weight: bold;
   padding-top: 10px;
 }
 
 .btn-yellow {
-  background-color: #F5BC5F;
-  width: 91%;
-  height: 50px;
+  background-color: #F3AE3B;
+  width: 95%;
+  height: 55px;
   color: #006565;
   border: none;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 16px;
   box-shadow: 0 1.2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+#notif-timer {
+  color: #006565;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
 }
 
 .cancel-green {
@@ -45,7 +53,7 @@
 }
 
 .doc-pop {
-  padding: 6px;
+  padding: 12px;
   border-bottom: 1px solid rgba(0, 101, 101, 0.4);
 }
 
@@ -53,6 +61,8 @@
   color: #006565;
   font-size: 20px !important;
   font-weight: bold;
+  text-align: left !important;
+  padding-top: 10px;
 }
 
 #notif-doc-card {
