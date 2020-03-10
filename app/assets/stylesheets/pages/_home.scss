@@ -1,4 +1,9 @@
 // Specific CSS for your home-page
+body {
+  background-color: #FEFDFD;
+}
+
+
 .landing-search {
   display: flex;
   flex-direction: column;
@@ -41,7 +46,6 @@
     margin: 15px 0;
   }
 }
-
 
 .banner {
   background-image: asset-url('newbg.svg');

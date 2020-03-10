@@ -3,6 +3,7 @@ class Appointment < ApplicationRecord
   belongs_to :user, optional: true
   has_many :notifications, dependent: :destroy
   after_create :create_notifications
+  after_create :timer_start
 
   private
 
@@ -13,6 +14,10 @@ class Appointment < ApplicationRecord
     if user
       Notification.create!(appointment: self, user: user)
     end
+  end
+
+  def timer_start
+    Time.now
   end
 end
 
