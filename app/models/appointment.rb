@@ -3,7 +3,6 @@ class Appointment < ApplicationRecord
   belongs_to :user, optional: true
   has_many :notifications, dependent: :destroy
   after_create :create_notifications
-  after_create :timer_start
 
   private
 
