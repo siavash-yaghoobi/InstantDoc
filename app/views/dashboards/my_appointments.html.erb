@@ -10,6 +10,7 @@
             <% appointment.doctor.specialties.each do |specialty| %>
               <p><%= specialty.name %></p>
             <% end %>
+            <p>Status: <strong><%= appointment.status %></strong> </p>
             <p><%= appointment.doctor.address %></p>
           </div>
         </div>
