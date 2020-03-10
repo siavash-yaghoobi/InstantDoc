@@ -16,4 +16,8 @@ class DashboardsController < ApplicationController
     @dashboard_navbar = true
     @dashboard_a = Appointment.where("user_id == #{current_user.id}")
   end
+
+  def my_appointments_destroy
+    raise
+  end
 end
