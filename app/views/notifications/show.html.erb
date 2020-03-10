@@ -1,7 +1,19 @@
-<%= button_to "Confirm", notification_path(@notification),
-                         method: :patch,
-                         params: { notification: { status: "confirmed" }} %>
+<div class="container">
+  <div class="appointment-pop">
+    <h2>You've got an appointment!</h2>
+    <%= @notification.appointment.start_at.strftime("%A, %-d. %B") %>
+    <br>
+    <%= @notification.appointment.start_at.strftime("%H:%M") %>
+  </div>
+  <div class="card-doc" id="notif-show">
+  </div>
+  <div class="confirm-buttons">
+    <%= button_to "Confirm", notification_path(@notification),
+                             method: :patch,
+                             params: { notification: { status: "confirmed" }} %>
 
-<%= button_to "Decline", notification_path(@notification),
-                         method: :patch,
-                         params: { notification: { status: "declined" }} %>
+    <%= button_to "Decline", notification_path(@notification),
+                             method: :patch,
+                             params: { notification: { status: "declined" }} %>
+  </div>
+</div>
