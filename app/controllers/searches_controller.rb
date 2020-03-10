@@ -10,6 +10,7 @@ class SearchesController < ApplicationController
     @search = Search.new(search_params)
     @search.user = current_user
     authorize @search
+
     if @search.save
       redirect_to my_searches_path
     else
@@ -19,6 +20,8 @@ class SearchesController < ApplicationController
 
   def destroy
     @search.destroy
+    authorize @search
+    redirect_to my_searches_path
   end
 
   private

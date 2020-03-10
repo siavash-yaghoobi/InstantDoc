@@ -16,7 +16,7 @@
               id: 'address-input',
               required: true %>
             <%= label_tag "radius", "Travel distance" %>
-            <%= select_tag "radius", options_from_collection_for_select([[2, "2 km"], [5, "5 km"], [10, "10 km"], [25, "25 km"], [5, "50 km"]], :first, :last) %>
+            <%= select_tag "radius", options_from_collection_for_select([[2, "2 km"], [5, "5 km"], [10, "10 km"], [25, "25 km"], [50, "50 km"]], :first, :last) %>
             <%#= range_field_tag(:radius, 0, max: 150, step: 5, class: 'form-control') %>
             <%= submit_tag "Get your appointment!", class: "btn-yellow mt-3" %>
         <% end %>
