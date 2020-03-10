@@ -15,10 +15,6 @@ class Appointment < ApplicationRecord
       Notification.create!(appointment: self, user: user)
     end
   end
-
-  def timer_start
-    Time.now
-  end
 end
 
 
