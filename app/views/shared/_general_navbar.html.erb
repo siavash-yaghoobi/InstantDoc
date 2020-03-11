@@ -4,6 +4,9 @@
       <li class="nav-item dropdown" id="general-page">
         <%= image_tag "menu-white.png", class: "avatar dropdown-toggle", id: "navbarDropdown", data: { toggle: "dropdown" }, 'aria-haspopup': true, 'aria-expanded': false %>
         <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+          <div>
+             <p class="welcome-user">Hi, <%= current_user.first_name.capitalize %>!</p>
+          </div>
           <%= link_to "Home", root_path, class: "dropdown-item" %>
           <%= link_to "Edit my profile", edit_user_registration_path, class: "dropdown-item" %>
           <%= link_to "My queues", my_searches_path, class: "dropdown-item" %>

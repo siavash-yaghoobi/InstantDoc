@@ -11,13 +11,18 @@
 
 .flex-card {
   display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 .header-card {
   width: 100%;
   background-color: #006565;
   color: white;
-  padding: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px;
+  height: 45px;
 }
 
 #appointment {
@@ -50,7 +55,8 @@
 
 .card-doc .card-doc-info {
   color: #006565;
-  padding: 8px;
+  padding: 10px;
+  width: 65%;
 }
 
 .card-doc .card-doc-info .card-doc-info-specialty {
@@ -59,20 +65,24 @@
 }
 
 .card-doc p {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.4;
   margin-bottom: 0;
   margin-top: 5px;
 }
 
 .card-doc h3 {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: bold;
   margin: 0;
   overflow: visible;
 }
 
-.overlay {
-  position: relative;
-  border: #D13926 2px solid;
+.card-doc h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-doc .card-doc-info .card-doc-info-specialty {
+  font-weight: bold;
 }
