@@ -1,7 +1,7 @@
 <!-- <h2 class="blue-bar" id="welcome-bar">My searches</h2> -->
 <p class="idx-instruction"><i class="fas fa-info-circle"></i> You will get notified by SMS as soon as your doctor is available</p>
 <div class="container-search" id="search notif-show">
-  <h2 style="font-size: 20px;  font-weight: bold; color: #006565">My Queue:</h2>
+  <h2 style="font-size: 20px;  font-weight: bold; color: #006565; padding-top: 5px">My Queues</h2>
   <% current_user.searches.each do |search| %>
     <div class="card-doc" id="search">
       <div style="font-weight: bold"><%= search.specialty.name %> near <%= search.location %></div>
