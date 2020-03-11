@@ -1,3 +1,11 @@
+.welcome-user {
+  text-align: center;
+  color: #006565;
+  font-weight: bold;
+  border-bottom: 1px solid #006565;
+  width: 68%;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
   background:  #006565;
@@ -51,6 +59,10 @@
 
 .navbar-expand .navbar-nav .dropdown-menu {
   z-index: 1000;
+}
+
+.navbar-nav .dropdown-menu {
+  font-size: 18px;
 }
 
 #toggle-map > span {

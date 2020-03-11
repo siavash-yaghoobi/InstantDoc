@@ -17,25 +17,20 @@
             <div class="flex-card">
               <img id="doc-image"src=<%=appointment.doctor.picture_url%> alt="A doctor">
               <div class="card-doc-info">
-                <h5><%= appointment.doctor.first_name %> <%= appointment.doctor.last_name %></h5>
+                <h3><%= appointment.doctor.first_name %> <%= appointment.doctor.last_name %></h3>
+
                 <% appointment.doctor.specialties.each do |specialty| %>
                   <p><%= specialty.name %></p>
                 <% end %>
-                <p>Status: <strong><%= appointment.status %></strong> </p>
-                <p><%= appointment.doctor.address %></p>
+                <p><i class="far fa-calendar-check"></i> <strong><%= appointment.status %></strong> </p>
+                <p><i class="fas fa-map-marker-alt"></i> <%= appointment.doctor.address %></p>
               </div>
             </div>
             <div class="button-del">
               <a href="#" class="btn btn-del" data-toggle="modal" data-target="#delModalCenter">Cancel</a>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">...</div>
-    </div>
-  </div>
-
-      <!-- modal -->
+                <!-- modal -->
       <div class="modal fade" id="delModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
@@ -56,8 +51,13 @@
         </div>
       </div>
     <% end %>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+      ...
+      </div>
   </div>
-</div>
+  </div>
 
 <%= render 'shared/map' %>
 
