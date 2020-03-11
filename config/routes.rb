@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :specialties, only: %i[index]
   get "my_searches", to: "dashboards#my_searches"
   get "my_appointments", to: "dashboards#my_appointments"
+  get "appointment_show", to: "dashboards#appointment_show"
   delete "my_appointments/:id", to: "dashboards#my_appointments_destroy", as: 'my_appointment'
   resources :notifications, only: [:show, :update]
 end
