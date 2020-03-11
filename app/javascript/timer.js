@@ -1,29 +1,38 @@
 // Set the date we're counting down to
 // grab the time from html and change it
-var countDownDate = new Date("March 10, 2020 16:57:25").getTime();
+// $(function() {
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+//   const notifTimer = document.getElementById("notif-timer");
 
-  // Get today's date and time
-  var now = new Date().getTime();
+//   if (notifTimer) {
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+//     var countDownDate = new Date("March 10, 2020 16:57:25").getTime();
 
-  // Time calculations for days, hours, minutes and seconds
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+//     // Update the count down every 1 second
+//     var x = setInterval(function() {
 
-  // Output the result in an element with id="demo"
-  document.getElementById("notif-timer").innerHTML = minutes + "m " + seconds + "s ";
+//       // Get today's date and time
+//       var now = new Date().getTime();
 
-  // If the count down is over, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("notif-timer").innerHTML = "EXPIRED";
-  }
-}, 1000);
+//       // Find the distance between now and the count down date
+//       var distance = countDownDate - now;
+
+//       // Time calculations for days, hours, minutes and seconds
+//       var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+//       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+//       // Output the result in an element with id="demo"
+//       notifTimer.innerHTML = minutes + "m " + seconds + "s ";
+
+//       // If the count down is over, write some text
+//       if (distance < 0) {
+//         clearInterval(x);
+//         document.getElementById("notif-timer").innerHTML = "EXPIRED";
+//       }
+//     }, 1000);
+//   }
+
+// })();
 
 // function getTimeRemaining(endtime) {
 //   var t = Date.parse(endtime) - Date.parse(new Date());

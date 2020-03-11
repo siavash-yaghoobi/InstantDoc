@@ -1,6 +1,6 @@
 <div class="container">
   <div id='doctor-list'>
-    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Choose 'notify me' to get notified on next available appointment for doctors with <%=  Specialty.find(params[:specialties]).name %> specialty</p>
+    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Choose 'notify me' to get notified on next available appointment with <%=  Specialty.find(params[:specialties]).name %>s in <%= params[:location] %></p>
     <% @doctors.each do |doctor| %>
       <div class="card-doc">
         <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
