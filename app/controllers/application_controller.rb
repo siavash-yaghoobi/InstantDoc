@@ -29,6 +29,7 @@ class ApplicationController < ActionController::Base
   private
   def set_specialties
     @specialties = Specialty.all
+    @specialties = @specialties.order(name: :ASC)
   end
 
   def skip_pundit?
