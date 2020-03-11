@@ -55,14 +55,11 @@
   margin-right: 10px;
 }
 
-#map {
-  width: 30%;
-  height: 90vh;
-  position: sticky;
-  top: 0;
-  margin: 15px 0;
-}
-
 .column-direction {
   flex-direction: column;
+}
+
+#map {
+  position: absolute;
+  top: 0;
 }
