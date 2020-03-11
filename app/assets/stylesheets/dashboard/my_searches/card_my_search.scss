@@ -56,11 +56,12 @@
 }
 
 #map {
-  width: 30%;
-  height: 90vh;
+  width: 100%;
   position: sticky;
   top: 0;
-  margin: 15px 0;
+}
+.mapboxgl-canvas {
+  height: 100vh;
 }
 
 .column-direction {
