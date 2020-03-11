@@ -3,10 +3,9 @@
 
   if (toggleMap) {
 
-
     function mapToggleEvent() {
       const map = document.getElementById('map');
-      map.style.display = map.style.display === 'none' ? 'block' : "none";
+      map.style.visibility = map.style.visibility === 'hidden' ? 'visible' : "hidden";
 
       const list = document.getElementById('doctor-list');
       list.style.display = list.style.display === 'none' ? 'block' : "none";
