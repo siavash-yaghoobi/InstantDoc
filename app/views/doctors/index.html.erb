@@ -1,6 +1,6 @@
 <div class="container">
   <div id='doctor-list'>
-    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Choose 'notify me' to get notified on next available appointment with <%=  Specialty.find(params[:specialties]).name %>s in <%= params[:location] %></p>
+    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Choose 'notify me' to get notified on any next available appointment with <%=  Specialty.find(params[:specialties]).name %>s in <%= params[:location] %></p>
     <% @doctors.each do |doctor| %>
       <div class="card-doc">
         <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
@@ -11,8 +11,8 @@
               <p class="card-doc-info-specialty"> <%= specialty.name %></p>
             <% end %>
           <% end %>
-          <p> <%= doctor.address %></p>
-          <p><span> <%= doctor.waiting_time %></span> hr avg. queue time</p>
+          <p><i class="fas fa-map-marker-alt"></i> <%= doctor.address %></p>
+          <p><i class="fas fa-hourglass-half"></i><span> <%= doctor.waiting_time %></span> hr</p>
         </div>
       </div>
     <% end %>

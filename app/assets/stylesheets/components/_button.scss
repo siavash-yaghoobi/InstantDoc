@@ -6,7 +6,7 @@
   border: none;
   font-weight: bold;
   font-size: 18px;
-  border-radius: 10px;
+  border-radius: 25px;
   box-shadow: 0 1.2px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -14,9 +14,11 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
-  bottom: 70px;
+  position: sticky;
+  bottom: -1px;
   width: 100%;
+  background: #FEFDFD;
+  height: 11vh;
 }
 
 .btn-green:hover {
@@ -27,12 +29,14 @@
 
 
 .btn-ter {
-  background-color: #F5BC5F;
-  width: 60%;
-  color: #006565;
+  height: 60px;
+  font-weight: bold;
+  background-color: #006565;
+  width: 90%;
+  color: #FEFDFD;
   border: none;
-  height: 45px;
-  border-radius: 30px;
+  border-radius: 25px;
+  font-size: 17px;
   // box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.3);
 }
 
