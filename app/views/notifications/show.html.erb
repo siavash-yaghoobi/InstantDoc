@@ -19,7 +19,7 @@
   </div>
   <div class="confirm-pop">
     <h4 id="ter-title">Will you book this appointment?</h4>
-    <h1 id="notif-timer"></h1>
+    <h1 id="notif-timer" data-notificationtime="<%= @notification %>"></h1>
     <div class="confirm-buttons">
       <%= button_to "Confirm", notification_path(@notification),
                                method: :patch,
@@ -34,15 +34,17 @@
   </div>
 </div>
 
+<!-- javascript code for timer, refactor later -->
 <script>
 (function() {
 
   const notifTimer = document.getElementById("notif-timer");
+  // const countdown = notifTime.dataset.notificationTime
 
   if (notifTimer) {
 
     // get the creation date of the notification
-    var countDownDate = new Date("<%= @notification.created_at %>").getTime();
+    var countDownDate = new Date("<%= @notification.created_at %>").getTime() + (5 * 60000) ;
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -51,10 +53,9 @@
       var now = new Date().getTime();
 
       // Find the distance between now and the count down date
-      var diffTime = countDownDate - now;
-
+      var timeDiff = countDownDate - now;
       // If the count down is over, write some text
-      if (diffTime < 0) {
+      if (timeDiff < 0) {
         clearInterval(x);
         notifTimer.innerHTML = "EXPIRED";
         return;
@@ -63,13 +64,11 @@
       // otherwise, calculate the minutes and seconds left
 
       // Time calculations for days, hours, minutes and seconds
-      var minutes = Math.floor((diffTime % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((diffTime % (1000 * 60)) / 1000);
+      var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
       // Output the result in timer element
       notifTimer.innerHTML = minutes + "m " + seconds + "s ";
-
-
     }, 1000);
   }
 
