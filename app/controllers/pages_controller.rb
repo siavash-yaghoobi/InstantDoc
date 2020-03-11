@@ -4,6 +4,7 @@ class PagesController < ApplicationController
 
   def home
     @home = true
+    @footer = true
     @doctor
   end
 end
