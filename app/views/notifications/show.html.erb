@@ -42,27 +42,25 @@
   // const countdown = notifTime.dataset.notificationTime
 
   if (notifTimer) {
+    var s = "<%= @notification.created_at.strftime("%d/%m/%y %H:%M:%S") %>";
 
-    // get the creation date of the notification
-    var countDownDate = new Date("<%= @notification.created_at %>").getTime() + (5 * 60000) ;
+    var countDownDate =  Date.parse(new Date(s));
+    var coundDownPlus5 = countDownDate + (5 * 60000)
 
     // Update the count down every 1 second
     var x = setInterval(function() {
 
       // Get today's date and time
       var now = new Date().getTime();
-
       // Find the distance between now and the count down date
-      var timeDiff = countDownDate - now;
+      var timeDiff = coundDownPlus5 - now;
       // If the count down is over, write some text
       if (timeDiff < 0) {
         clearInterval(x);
         notifTimer.innerHTML = "EXPIRED";
         return;
       }
-
       // otherwise, calculate the minutes and seconds left
-
       // Time calculations for days, hours, minutes and seconds
       var minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
       var seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);

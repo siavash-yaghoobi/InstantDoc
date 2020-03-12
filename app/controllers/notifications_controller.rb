@@ -3,6 +3,7 @@ class NotificationsController < ApplicationController
     @dashboard_navbar = true
     @notification = Notification.find(params[:id])
     authorize(@notification)
+    @current_time = Date.today
   end
 
   def update
