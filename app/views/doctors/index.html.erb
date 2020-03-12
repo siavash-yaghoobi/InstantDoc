@@ -1,6 +1,6 @@
 <div id='map-cont' class="container">
   <div id='doctor-list'>
-    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Choose 'notify me' to get notified on any next available appointment with <%=  Specialty.find(params[:specialties]).name %>s in <%= params[:location] %></p>
+    <p class="idx-instruction"><i class="fas fa-info-circle"></i> Tap 'notify me' to get notified on any next available appointment with <%=  Specialty.find(params[:specialties]).name %>s in <%= params[:location] %></p>
     <% @doctors.each do |doctor| %>
       <div class="card-doc">
         <img id="doc-image"src=<%=doctor.picture_url%> alt="A doctor">
