@@ -34,7 +34,7 @@
 
        <%= select_tag "specialty", options_from_collection_for_select(
       @specialties,
-      :id, :name),
+      :id, :name), include_blank: true,
       class: 'select2' %>
 
 

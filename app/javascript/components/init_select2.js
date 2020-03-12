@@ -2,7 +2,10 @@ import $ from 'jquery';
 import 'select2';
 
 const initSelect2 = () => {
-  $('.select2').select2();
+  $('.select2').select2({
+      placeholder: "Choose a specialty",
+      allowClear: true
+    });
 
   // on page load, choose whichever specialty was selected
   document.addEventListener("DOMContentLoaded", function(event) {
@@ -41,6 +44,10 @@ function updateQueryStringParameter(uri, key, value) {
     return uri + separator + key + "=" + value;
   }
 }
+
+    $(document).ready(function() {
+      $('select#placeholder-example')
+    });
 
 
 
