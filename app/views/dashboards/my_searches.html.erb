@@ -6,15 +6,13 @@
 
   <% current_user.searches.each do |search| %>
     <div class="card-doc" id="search">
-      <div style="font-weight: bold">
-        <h4><%= search.specialty.name %> near <%= search.location %></h4>
-      </div>
       <!-- <div class="flex-card" id="flex-search"> -->
         <div class="card-doc-info p-0">
+          <h4><%= search.specialty.name %> near <%= search.location %></h4>
           <p><i class="fas fa-map-marked-alt"></i> Within <%= search.radius != 0 ? search.radius : "5" %> km</p>
         </div>
         <div class="text-right">
-          <%= link_to "Cancel", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-flat btn-ter-small" %>
+          <%= link_to "Cancel", search_path(search), method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-del" %>
         </div>
       <!-- </div> -->
     </div>
