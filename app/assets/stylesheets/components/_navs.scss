@@ -8,12 +8,22 @@
   position: absolute;
   z-index: 100;
   padding: 10px;
+  background-color: $our-green;
 }
 
 .nav-gen-container {
   z-index: 100;
   padding: 10px;
   background-color: $our-green;
+}
+
+.nav-idx-container {
+  z-index: 100;
+  padding: 10px;
+  background-color: $our-green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .sidenav {
@@ -39,7 +49,7 @@
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #ABD1C6;
 }
 
 .sidenav .closebtn {
