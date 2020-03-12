@@ -35,6 +35,14 @@
   margin-block-end: 0;
 }
 
+.ext-link {
+  opacity: 0;
+}
+
+.ext-link:hover {
+  opacity: 1;
+}
+
 #map-cont {
   // position: relative;
 }
