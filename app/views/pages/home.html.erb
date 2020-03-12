@@ -9,7 +9,7 @@
             <%= select_tag "specialties", options_from_collection_for_select(
             @specialties.all,
             :id, :name),
-            class: 'form-control select2', include_blank: true, required: true %>
+            class: 'form-control select2', id: "homepage", include_blank: true, required: true %>
             <%= text_field_tag :location,
               params[:location], as: :string,
               placeholder: 'Enter your address',
