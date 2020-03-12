@@ -22,8 +22,8 @@
                 <% appointment.doctor.specialties.each do |specialty| %>
                   <p><%= specialty.name %></p>
                 <% end %>
-                <p><i class="far fa-calendar-check"></i> <strong><%= appointment.status %></strong> </p>
-                <p><i class="fas fa-map-marker-alt"></i> <%= appointment.doctor.address %></p>
+                <p><i class="far fa-calendar-check"></i> <strong class="<%= appointment.status%>-color"> <%= appointment.status %></strong> </p>
+                <p><i class="fas fa-map-marker-alt"></i> <%= appointment.doctor.address %></strong></p>
               </div>
             </div>
             <div class="button-del">
