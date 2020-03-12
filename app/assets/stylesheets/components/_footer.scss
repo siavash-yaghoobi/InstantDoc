@@ -2,13 +2,18 @@
   background: #006565;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 60px;
   padding: 0px 50px;
   color: rgba(0,0,0,0.3);
   position: fixed;
   bottom: 0;
   width: 100%;
+  p {
+    color: white;
+    margin: 0;
+    padding-right: 7px;
+  }
 }
 .footer-links {
   display: flex;

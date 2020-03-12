@@ -5,7 +5,7 @@
         <div class="title-wrapper">
           <h1 class="title">Get your doctor's appointment today</h1>
         </div>
-        <%= form_tag doctors_path, method: :get, class: "search-form-control" do %>
+        <%= form_tag doctors_path, method: :get, class: "search-form-control", id: "home-form" do %>
             <%= select_tag "specialties", options_from_collection_for_select(
             @specialties.all,
             :id, :name),
