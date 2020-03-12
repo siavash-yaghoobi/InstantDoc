@@ -1,5 +1,64 @@
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-  color: #006565;
+  color: $our-green;
   background-color: rgba(0,101,101,.03);
   border-color: #dee2e6 #dee2e6 #F4F4F4;
+}
+
+.nav-container {
+  position: absolute;
+  z-index: 100;
+  padding: 10px;
+}
+
+.nav-gen-container {
+  z-index: 100;
+  padding: 10px;
+  background-color: $our-green;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $our-green;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: $off-white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.welcome-user {
+  color: #FEFDFD;
+  border-bottom: 1px solid #FEFDFD;
+  width: 70%;
+  font-size: 20px;
+  padding-left: 30px;
 }
