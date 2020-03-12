@@ -100,9 +100,15 @@
   }
   .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 60px !important;
+    line-height: 60px;
     position: absolute;
     top: 0px;
     right: 15px !important;
     width: 20px;
+  }
+  #select2-homepage-container {
+    line-height: 60px;
+    text-align: left;
+    padding-left: 18px;
   }
 }
