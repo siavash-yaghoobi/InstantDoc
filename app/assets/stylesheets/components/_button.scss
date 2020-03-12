@@ -37,7 +37,10 @@
   color: #FEFDFD;
   border: none;
   border-radius: 25px;
-  font-size: 24px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
   // box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -83,25 +86,23 @@
 }
 
 
-#select2-specialties-container {
-  height: 60px;
-  line-height: 60px;
-  text-align: left;
-  padding-left: 18px;
-}
-
-
-#homepage .select2-container .select2-selection--single {
-  height: 60px !important;
-  line-height: 60px;
-}
-
-.select2-container--default .select2-selection--single .select2-selection__arrow {
-
+#home-form {
+  #select2-specialties-container {
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    padding-left: 18px;
+  }
+  .select2-container .select2-selection--single {
+    height: 60px !important;
+    line-height: 60px;
+    width: auto;
+  }
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 60px !important;
     position: absolute;
     top: 0px;
     right: 15px !important;
     width: 20px;
-
+  }
 }
