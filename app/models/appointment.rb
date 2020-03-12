@@ -14,6 +14,7 @@ class Appointment < ApplicationRecord
       Notification.create!(appointment: self, user: user)
     end
   end
+
 end
 
 
