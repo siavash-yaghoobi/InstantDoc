@@ -45,19 +45,20 @@
   if (notifTimer) {
     var s = Number("<%= @notification.created_at.to_i * 1000 %>");
 
-    var countDownDate = new Date(s);
-    var coundDownPlus5 = new Date(s + 300) ;
-    console.log(countDownDate);
+    var countDownDate = new Date(s).getTime();
+    var coundDownPlus5 = new Date(s + (5*60000)).getTime() ;
+    console.log(coundDownPlus5);
 
     // Update the count down every 1 second
     var x = setInterval(function() {
 
       // Get today's date and time
       var now = new Date().getTime();
-      console.log(now);
+      // console.log(now);
       // Find the distance between now and the count down date
-      var timeDiff = now -coundDownPlus5;
-      console.log(coundDownPlus5);
+      var timeDiff = coundDownPlus5 - now;
+      // console.log(coundDownPlus5);
+      // console.log(timeDiff);
       // If the count down is over, write some text
       if (timeDiff < 0) {
         clearInterval(x);
